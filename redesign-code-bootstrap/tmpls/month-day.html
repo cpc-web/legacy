@@ -1,0 +1,11 @@
+<div class="cal-month-day <%= cls %>">
+	<span class="pull-left" data-cal-focus="<%= data_focus %>" data-cal-date="<%= data_day %>" data-cal-view="month" data-toggle="tooltip" title="<%= tooltip %>"><%= day %></span>
+	<% if (events.length > 0) { %>
+		<div class="events-list pull-left" data-cal-start="<%= start %>" data-cal-end="<%= end %>">
+			<% _.each(events, function(event) { %>
+				<div data-event-id="<%= event.id %>" data-event-class="<%= event['class'] %>" data-toggle="popover" data-content="default dummy content for popover" title="<%= event.title %>">
+						<span class="pull-left event <%= event['class'] %>"></span><%= event.start %><br /><%= event.title %><br /><a href="<%= event.url ? event.url : 'javascript:void(0)' %>">More Info</a></div><br />
+			<% }); %>
+		</div>
+	<% } %>
+</div>

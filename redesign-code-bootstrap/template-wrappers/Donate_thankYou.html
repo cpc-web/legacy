@@ -1,0 +1,58 @@
+<style type="text/css">
+
+body { 
+	background: url('../images/content/pagebuilder/Membership-background_v2.jpg') no-repeat center top #FFF;
+	background-size:cover;
+	font-family: 'Titling Gothic FB Cond',sans-serif;  
+	margin: 0; 
+	padding: 0; }
+label { white-space: normal; }
+#left_content { display: none; width: 0;}
+#right_main { width:800px; }
+#footer{ background-color: #fff; }
+#memDonWrap { background-color: #EDEDED; width:100%; margin:auto; border-radius:5px;}
+#contain .breadcrumbComponent a, #contain .breadcrumbComponent a:link { display:a none; }
+
+.greenBar {background-color: #85c149; height: 50px; width: 100%; margin-top: 0px;}
+.thanksText { 
+	font-size: 20px; 
+	font-family: 'Titling Gothic FB Cond',sans-serif;  
+	color: #5b5b5b; 
+	font-weight: normal; 
+	line-height: 125%;
+	text-align:center; 
+	padding:20px;}
+
+.videoTube { height: 338px; width: 600px; padding:auto; margin:auto;}
+
+@font-face {
+ font-family: "Titling Gothic FB Cond";
+ src: url("http://wac.6a25.edgecastcdn.net/006A25/webtype/ff/3/5c74b98d-b28d-4680-a8a8-b0b850cbfddd") format("woff");
+ font-style: normal;
+ font-weight: normal;
+}
+
+</style>
+
+<div id="memDonWrap">
+	<div class="greenBar"></div>
+		<p class="thanksText"><strong>Thank you for supporting the Central Park Conservancy!</strong><br /> Did you know the majority of our annual budget comes from <br/> the generous donations of people like you? <br /><br />
+		It&#39;s your park. We just take care of it for you.</p>
+
+		<div class="videoTube"> <!-- YouTube Video-->
+		<!--<iframe src="http://www.youtube.com/embed/2Vo4v_lgOFw?rel=0&amp;autoplay=1" height="310" width="500" frameborder="0"></iframe> Old embed code-->
+		<iframe style="display: block;  margin-left: auto;  margin-right: auto;" width="600" height="338" src="//www.youtube.com/embed/2Vo4v_lgOFw?theme=light&color=white&rel=0&autoplay=1&autohide=1&rel=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<p style="padding:20px;"><strong>Please print the following for your records.</strong></p>
+		<div style="padding:20px;">
+		<table border="0" width="100%">
+		<tbody>
+		<tr>
+		<td class="FormSectionHeader"> Transaction Summary </td>
+		</tr>
+		</tbody>
+		</table>
+		<convio:session name="120" param="dc:transactionSummary"></convio:session>
+		<p><a href="http://www.centralparknyc.org">Return to our Home Page</a></p>
+	</div>
+</div>

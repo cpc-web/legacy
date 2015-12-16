@@ -1,0 +1,298 @@
+	<style type="text/css">
+	/* internal styles - move to global.css */
+	#emailHomepage { margin-left: 35px; margin-right: 35px; }
+	#orangeDonate { display:block; }
+     .navbar-toggle { display:none; }
+	/* MOBILE styles */
+	@media(max-width:767px) {
+		.firstnav {
+			margin-top:54px;
+			position: absolute;
+			top: 246px;
+			width: 100%;
+		}
+		.carousel { height: 300px; }
+		.carousel .item, .carousel .item img { height: 300px; }
+		.carousel-caption { bottom: 10px; }
+		.dropdown-menu-caption > li > a { width: 180px; white-space: normal; }
+		.centerGreen { display: none; }
+		.marketing {
+			position: absolute;
+			top: 560px;
+		}
+	}
+	</style>
+	
+	<!-- Carousel	================================================== -->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<div class="carousel-overlay">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-3 knockout hidden-xs" style="z-index:16;">
+
+					    	<div class="navbar firstnavToday">
+								<ul class="nav navbar-nav knockout">
+									<li class="dropdown showsecond active" id="aboutTrigger" style="margin-top:5px;">Today in Central Park<span class="caret"></span><br/>
+										<!--a href="http://w1.weather.gov/xml/current_obs/KNYC.xml" target="_blank"-->
+										<span class="todayWeather">
+												<span style="position:relative; display: block !important; width: 150px; overflow:hidden; height:27px; margin: 0 0 10px; text-align: center; font-family: sans-serif; font-size: 12px;"><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:10106.3.99999&amp;bannertypeclick=wu_simplegray" title="Central Park, New York Weather Forecast" target="_blank"><img src="http://weathersticker.wunderground.com/weathersticker/cgi-bin/banner/ban/wxBanner?bannertype=wu_simplegray&amp;airportcode=KNYC&amp;ForcedCity=Central Park&amp;ForcedState=NY&amp;zip=10106&amp;language=EN" alt="Find more about Weather in Central Park, NY" style="top:-22px; left:-2px; position:absolute;" width="160"></a></span>
+												<!--span class="conditions glyphicon glyphicon glyphicon-cloud white2"></span>
+												<span class="conditions">Sunshine</span>&nbsp;
+												<span class="temperature">52°F/ 11°C </span-->
+											</span>
+										<!--/a-->
+										 <div class="navbar secondnavToday" id="about-nav">
+												<ul class="list-inline nav navbar-nav about-nav">
+													<li class="dropdown">
+														<a href="http://www.centralparknyc.org/about/park-information/">
+															<div class="todayEvents">
+																<hr class="hrTB"/>
+																<div style="display: inline;" class="templateComponent" id="templatelist-505946308"></div>
+																<a href="http://www.centralparknyc.org/events/">
+																<div class="btnMoreEvents">More Events</div></a>
+															</div>
+														</a>
+													</li>												
+											   </ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+
+
+				</div> <!--col-md-3-->
+
+
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+						<li data-target="#myCarousel" data-slide-to="3"></li>
+
+					</ol>
+				</div><!--row-->
+
+			</div><!--container-->
+		</div><!--carousel-overlay-->
+		<div class="carousel-inner">
+
+		<!--CARROUSEL IMAGE 1 -->
+			<div class="item active">
+				<img  src="http://cpc.convio.net/redesign/img/cpc/carrousel/1.jpg" />
+				<div class="container">
+				  <div class="carousel-caption">
+					<!-- Caption here!-->
+					<div class="btn-group dropup">
+							  <button type="button" class="btnCaption btnCaption-default dropdown-toggle" data-toggle="dropdown">
+								<!--<span class="glyphicon glyphicon-camera white"></span>-->
+								<span>
+								<img src="http://cpc.convio.net/redesign/img/cpc/cameraIcon4.png" style="width:100%; height:100%"/>
+								</span>
+								<span class="sr-only">Toggle Dropdown</span>
+							  </button>
+							  <ul class="dropdown-menu-caption" role="menu">
+								<li>
+								<a href="http://www.centralparknyc.org/tours/">
+								Enhance your visit to Central Park by taking one of our Official Tours
+								<span class="glyphicon glyphicon-play white2"></span>
+								</a>				
+								</li>
+							  </ul>
+					</div>
+					<!-- End Caption--> 
+
+					</div>
+				</div>
+			</div>
+
+			<!--CARROUSEL IMAGE 2 -->
+			<div class="item">
+				<img src="http://cpc.convio.net/redesign/img/cpc/carrousel/2.jpg" />
+				<div class="container">
+
+					<div class="carousel-caption">
+					<!-- Caption here!-->
+					<div class="btn-group dropup">
+							  <button type="button" class="btnCaption btnCaption-default dropdown-toggle" data-toggle="dropdown">
+								<!--<span class="glyphicon glyphicon-camera white"></span>-->
+								<span>
+								<img src="http://cpc.convio.net/redesign/img/cpc/cameraIcon4.png" style="width:100%; height:100%"/>
+								</span>
+								<span class="sr-only">Toggle Dropdown</span>
+							  </button>
+							  <ul class="dropdown-menu-caption" role="menu">
+								<li><a href="https://secure2.convio.net/cpc/site/Donation2?df_id=3360&3360.donation=form1">Honor someone special by planting flowers in Central Park <span class="glyphicon glyphicon-play white2"></a></li>
+							  </ul>
+					</div>
+					<!-- End Caption-->
+					</div>
+				</div>
+			</div>
+
+				<!--CARROUSEL IMAGE 3 -->
+			<div class="item">
+				<img src="http://cpc.convio.net/redesign/img/cpc/carrousel/3.jpg" />
+				<div class="container">
+					<div class="carousel-caption">
+					<div class="btn-group dropup">
+							  <button type="button" class="btnCaption btnCaption-default dropdown-toggle" data-toggle="dropdown">
+								<!--<span class="glyphicon glyphicon-camera white"></span>-->
+								<span style="width:26px; height:23px;">
+								<img src="http://cpc.convio.net/redesign/img/cpc/cameraIcon4.png" style="width:100%; height:100%"/>
+								</span>
+								<span class="sr-only">Toggle Dropdown</span>
+							  </button>
+							  <ul class="dropdown-menu-caption" role="menu">
+								<li><a href="http://www.centralparknyc.org/things-to-see-and-do/attractions/belvedere-castle.html">Stop by Belvedere Castle Visitor Center and enjoy the beautiful view<span class="glyphicon glyphicon-play white2"></a></li>
+							  </ul>
+					</div>
+				   </div>
+				</div> 
+			</div> 
+
+				<!--CARROUSEL IMAGE 4 -->
+			<div class="item">
+				<img src="http://cpc.convio.net/redesign/img/cpc/carrousel/4.jpg" />
+				<div class="container">
+					<div class="carousel-caption">
+					<div class="btn-group dropup">
+							  <button type="button" class="btnCaption btnCaption-default dropdown-toggle" data-toggle="dropdown">
+								<!--<span class="glyphicon glyphicon-camera white"></span>-->
+								<span style="width:26px; height:23px;">
+								<img src="http://cpc.convio.net/redesign/img/cpc/cameraIcon4.png" style="width:100%; height:100%"/>
+								</span>
+								<span class="sr-only">Toggle Dropdown</span>
+							  </button>
+							  <ul class="dropdown-menu-caption" role="menu">
+								<li><a href="http://centralparknyc.tumblr.com/">Follow us on tumblr for the latest on all things spring from Central Park <span class="glyphicon glyphicon-play white2"></a></li>
+							  </ul>
+					</div>
+				   </div>
+				</div> 
+			</div> 
+
+
+
+		</div> <!-- carousel inner -->
+		
+		<div class="centerGreen knockout">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 iconDiv">
+						<a href="http://www.centralparknyc.org/about/park-information/">
+					<!--<span class="lg-icon glyphicon glyphicon glyphicon-tree-deciduous"></span>-->
+					<div class="greenIcon"><img src="http://cpc.convio.net/redesign/img/cpc/website_information.png"/></div>
+						<p class="greenTitle">PARK INFO<br />All about the Park</p></a>
+					</div>
+					<div class="col-md-4 iconDiv">
+					<a href="http://www.centralparknyc.org/tours/self-guided/mobile-app.html">
+					<!--<span class="lg-icon glyphicon glyphicon glyphicon-calendar"></span>-->
+					<div class="greenIcon"><img src="http://cpc.convio.net/redesign/img/cpc/website_app.png"/></div>
+					<p class="greenTitle">MOBILE APP<br />Get our free Central Park App</p></a>
+					</div>
+					<div class="col-md-4 iconDiv">
+					<a href="http://centralparknyc.tumblr.com/" target="_blank"><div class="greenIcon"><img src="http://cpc.convio.net/redesign/img/cpc/website_blog.png"/></div>
+						<!--<span class="lg-icon glyphicon glyphicon-comment"></span>-->
+					<p class="greenTitle">BLOG<br />Learn fun and captivating facts</p></a>
+					</div>
+				</div> <!-- row -->
+			</div><!-- container -->
+		</div> <!--centerGreen knockout -->
+
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+	</div><!-- /.carousel -->
+	
+
+	<!-- Marketing messaging and featurettes
+	================================================== -->
+	<!-- Wrap the rest of the page in another container to center all the content. -->
+
+	<div class="container marketing">
+
+	  <!-- Alert component --> <t:include id=templatelist-129907430 /> <!-- END Alert -->
+	  <!-- Three columns of text below the carousel -->
+		<div class="row">
+			<div class="mainContent">
+
+			<div class="col-lg-4">
+				<h2>Run with Us</h2>
+				<a href="http://www.crowdrise.com/teamcentralpark2014"><img class="img-responsive" src="http://cpc.convio.net/redesign/img/cpc/marathon-gal.jpeg" data-src="holder.js/140x140" alt="Run with Us" /></a>
+				<p>Join Team Central Park for the 2014 TCS New York City Marathon</p>
+				<p><a class="mainLink" href="http://www.crowdrise.com/teamcentralpark2014">Learn More<span class="xs-icon glyphicon glyphicon-play"></span></a></p>
+			</div><!-- /.col-lg-4 -->
+
+			<div class="col-lg-4">
+				<h2>Be Central to the Park</h2>
+				<a href="http://www.centralparknyc.org/2014/support/"><img class="img-responsive" src="http://cpc.convio.net/redesign/img/cpc/75.jpg" data-src="holder.js/140x140" alt="Be Central to the Park!"></a>
+				<p>75% of Central Park's budget comes from your generous donations.</p>
+				<p><a class="mainLink" href="http://www.centralparknyc.org/2014/support/">Learn More<span class="xs-icon glyphicon glyphicon-play"></span></a></p>
+			</div><!-- /.col-lg-4 -->
+
+			<div class="col-lg-4">
+				<h2>Sign Up for Email</h2>
+				<img class="img-responsive" src="http://cpc.convio.net/redesign/img/cpc/CentraltoSpring.jpeg" data-src="holder.js/140x140" alt="Sign Up for Email">
+				<p>Get advance notice of events in Central Park.</p>
+				<div id="emailHomepage">
+					<form action="http://support.centralparknyc.org/site/Survey" method="post" name="register" class="emailHomepage">
+						<input type="hidden" name="cons_info_component" value="t" />
+						<input type="hidden" name="cons_mail_opt_in" value="t" />
+						<input type="hidden" name="ACTION_SUBMIT_SURVEY_RESPONSE" value="Submit Survey" />
+						<span class="btnSignUp clickable submitButton">SIGN UP NOW</span>
+						<input class="primaryEmail formSignUp" maxlength="40" name="cons_email" type="text" placeholder="Your email"></input>
+						<input type="hidden" name="s_src" value="website" />
+						<input type="hidden" name="s_subsrc" value="2014_homepageEmailBox" />
+						<input type="hidden" name="denySubmit" value="" alt="This field is used to prevent form submission by scripts." />
+						<input type="hidden" name="SURVEY_ID" value="2621" />
+					</form>
+					<div class="noteBox">&nbsp;</div>
+				</div>
+			</div><!-- /.col-lg-4 -->
+			</div><!-- /.mainContent -->
+		</div><!-- /.row -->
+	</div><!-- /.container -->
+
+
+<t:value id="body"></t:value>
+
+<script type="text/javascript">// <![CDATA[
+(function($){
+	
+	/*function displayWeather() {
+		$.ajax({
+			url: 'http://w1.weather.gov/xml/current_obs/KNYC.xml',
+			headers: {"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,* /*;q=0.8"},
+			//dataType: "xml",
+			success: function(data) {
+				var currentTempF = $(data).find('temp_f').text();
+				var currentTempC = $(data).find('temp_c').text();
+				var currentConditions = $(data).find('weather').text();
+				$('.temperature').text(''+currentTempF+'F/ '+currentTempC+'C');
+				$('.conditions').text(currentConditions);
+			}
+		});
+	}*/
+	
+	$('form.emailHomepage').attr('action', 'javascript:void(0);');
+
+	// initialize page
+	$(document).ready(function() {
+		$('form.emailHomepage .submitButton').click(function() {
+			submitEmail('emailHomepage');
+		});
+		$('form.emailHomepage .primaryEmail').keypress(function (e) {
+			if (e.which == 13) {
+				submitEmail('emailHomepage');
+				return false;
+			}
+		});
+		//displayWeather();
+		
+		// always show expanded nav on mobile homepage
+		$('#primaryNav').removeClass('hidden-xs');
+	});
+})(jQuery);
+	// ]]></script>
+<!-- END email capture box -->  

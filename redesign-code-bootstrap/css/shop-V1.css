@@ -1,0 +1,464 @@
+/*
+
+Classes that are used by eCommerce that should be defined here:
+
+CartItemName
+CartShippingOption
+ShippingAddressLinks
+ShoppingAdditionalGift
+ShoppingBreadcrumb
+ShoppingBrowse
+ShoppingButtonPrimary
+ShoppingButtonRow
+ShoppingButtons
+ShoppingCart
+ShoppingCartAdditionalGift
+ShoppingCartContents
+ShoppingCartCrossSell
+ShoppingCartUpSell
+ShoppingCrossSell
+ShoppingDiscountedPrice
+ShoppingHeading
+ShoppingInstructions
+ShoppingPremiumOptOut
+ShoppingPrice
+ShoppingRow
+ShoppingSearch
+ShoppingSearchLabel
+ShoppingStandardPrice
+ShoppingTitle
+ShoppingUpSell
+
+
+*/
+
+table.ShoppingSearch {
+	border: 1px solid #466172;
+	background-color: #d8e0eB;
+}
+
+table.ShoppingSearch select {
+    FONT-SIZE: 8pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+table.ShoppingSearch option {
+    FONT-SIZE: 8pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.ShoppingSearchBlock
+{
+	white-space: nowrap;
+}
+p.ShoppingHeading {
+	font-size: 120%;
+	font-weight: bold;
+}
+
+p.ShoppingSearch {
+	font-size: 90%;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+table.ShoppingBrowse {
+	border: 1px solid #466172;
+	padding: 0px 0px;
+}
+
+th.ShoppingBrowse {
+	background-color: #d8e0eB;
+	padding: 4px 4px;
+}
+td.ShoppingBrowse {
+	border-top: 1px solid #466172;
+	padding: 4px 4px;
+}
+
+td.ShoppingBrowse {
+	padding: 2px 4px;
+}
+
+p.ShoppingSearchLabel {
+	font-size: 80%;
+}
+
+.ShoppingButtons {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.ShoppingButtonsSmall {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+}
+
+.ShoppingButtonPrimary {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #BE3115;
+	color:	#ffffff;
+	font-weight: bold;
+}
+
+.SmallButton {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80%;
+}
+
+.ShoppingInstructions {
+	font-size: 80%;
+}
+
+.ProductDetailsHeader {
+	background-color: #d8e0eB;
+	padding: 4px 4px;
+	width: 100%;
+	font-weight: bold;
+	border-bottom: 2px solid #BE3115;
+}
+
+table.ProductConfig {
+	padding: 4px 4px;
+	width: 100%;
+}
+
+.ProductConfigSection {
+	background-color: #d8e0eB;
+	padding: 4px 4px;
+	width: 100%;
+	font-weight: bold;
+	border-bottom: 2px solid #BE3115;
+}
+
+.ProductConfigHalfSection {
+	background-color: #d8e0eB;
+	padding: 4px 4px;
+	font-weight: bold;
+	border-bottom: 2px solid #BE3115;
+}
+
+.ProductConfigInstructions {
+	font-size: 90%;
+}
+
+.ProductConfigLabel {
+	font-weight: bold;
+}
+
+.ShoppingCart {
+	border: solid 1px;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+
+/**
+ * Make all the select lists use a smaller font as they can get pretty wide
+ */
+select
+{
+    	FONT-SIZE: 8pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.ShoppingTitle {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/*
+ Legacy styles from premiums
+*/
+
+table.PremiumSearch {
+	border: 1px solid #466172;
+	background-color: #d8e0eB;
+	padding: 4px 4px;
+}
+
+
+p.PremiumHeading {
+	font-size: 120%;
+	font-weight: bold;
+}
+
+p.PremiumSearch {
+	font-weight: bold;
+}
+
+table.PremiumBrowse {
+	border: 1px solid #466172;
+	padding: 0px 0px;
+}
+
+th.PremiumBrowse {
+	background-color: #d8e0eB;
+	border-bottom: 1px solid #466172;
+	padding: 4px 4px;
+}
+
+td.PremiumBrowse {
+	padding: 2px 4px;
+}
+
+p.PremiumSearchLabel {
+	font-family: Arial;
+	font-size: 80%;
+}
+
+.PremiumButtons {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+/**
+ * Make all the select lists use a smaller font as they can get pretty wide
+ */
+#NAME
+{
+    	FONT-SIZE: 8pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#PRICE
+{
+    	FONT-SIZE: 8pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#TYPE
+{
+    	FONT-SIZE: 8pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#SORT-ORDER
+{
+    	FONT-SIZE: 8pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+span.PremiumTitle {
+	font-weight: bold;
+}
+
+span.PremiumPrice {
+	font-weight: bold;
+}
+
+.ShoppingUpsell {
+	clear: left;
+}
+
+.ProductLongDescription {
+	clear: left;
+}
+
+.ShoppingCartContents {
+	background-color: #d8e0eB;
+	padding: 4px 4px;
+	width: 100%;
+	border: 1px solid #466172;
+}
+.ShoppingAdditionalGift {
+	padding: 4px 4px;
+	width: 100%;
+}
+.ShoppingCartAdditionalDonation {
+	background-color: #ffff99;
+}
+.ShoppingCartDiscountCode {
+	background-color: #ffff99;
+}
+.ShoppingUpsell {
+	padding: 4px 4px;
+	width: 100%;
+}
+.ShoppingCartUpsell {
+	padding: 4px 4px;
+	width: 100%;
+}
+.ShippingAddressLinks {
+	font-size: 100%;
+	font-weight: bold;
+}
+table.ShippingAddressLinks {
+	background-color: #d8e0eB;
+	padding: 4px 4px;
+	width: 100%;
+	border: 1px solid #466172;
+}
+p.ShipToMe {
+	font-size: 120%;
+	font-weight: bold;
+}
+input.ShipToMe {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+p.ShipToOther {
+	font-size: 120%;
+	font-weight: bold;
+}
+input.ShipToOther {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+p.ShipToMultiple {
+	font-size: 120%;
+	font-weight: bold;
+}
+input.ShipToMultiple {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+#CategoryTreeHdr {
+	border-top: 1px solid #466172;
+	border-right: 1px solid #466172;
+	border-left: 1px solid #466172;
+	background-color: #466172;
+	color: #eee;
+	font-weight: bold;
+	padding: 4px 10px 4px 10px;
+	margin-right: 5px;
+	width: 150px;
+	white-space: nowrap;
+}
+
+#CategoryTree {
+	border: 1px solid #466172;
+	background-color: #d8e0eB;
+	padding: 4px 10px 4px 10px;
+	margin-right: 5px;
+	width: 150px;
+}
+
+a.ShoppingCategoryTree {
+	font-weight: bold;
+	font-size: 90%;
+	text-decoration: none;
+}
+
+#FeaturedProducts {
+	border: 1px solid #466172;
+	background-color: #d8e0eB;
+	margin-bottom: 10px;
+}
+
+#FeaturedProducts td {
+	padding: 4px 4px 4px 4px;
+}
+
+#FeaturedProductsHdr {
+	background-color: #466172;
+	color: #eee;
+	font-weight: bold;
+	border-bottom: 1px solid #466172;
+}
+
+#FeaturedProductsHdr td {
+	border-bottom: 1px solid #466172;
+}
+
+
+#CurrentFolderName {
+	font-weight: bold;
+	font-size: 120%;
+	color: #666;
+	margin-bottom: 5px;
+}
+
+.DownloadFileInstructions {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+a.DownloadFileLink {
+	padding: 5px 10px 5px 10px;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 11px;
+	color:	#000;
+	background-color: #eee;
+	border: outset 2px #ccc;
+}
+
+a.DownloadFileLink:hover {
+	padding: 5px 10px 5px 10px;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 11px;
+	color:	#fff;
+	background-color: #999;
+	border: outset 2px #ff9a02;
+}
+
+#ProductDetailsPageContent {
+	clear: both;
+}
+
+#ProductDetailsProductInfo {
+	float: left;
+	width: 470px;
+	margin-right: 10px;
+}
+
+#ProductDetailsUpSell {
+	float: left;
+	width: 155px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+#ProductDetailsCrossSell {
+	float: left;
+	border: 1px solid #466172;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+#ProductDetailsCrossSell #CrossSell {
+	padding: 2px;
+	width: 155px;
+}
+
+#ProductDetailsCrossSellTitle {
+	border-bottom: 1px solid #466172;
+	background-color: #466172;
+	color: #eee;
+	font-weight: bold;
+	font-size: 90%;
+	width: 155px;
+	padding: 2px;
+}
+
+#CrossSell {
+	clear: both;
+}
+
+.CrossSellItem {
+	float: left;
+	padding-bottom: 10px;
+}
+
+#ProductDetailsCrossSell .ShoppingTitle {
+	font-weight: normal;
+	font-size: 90%;
+}
+
+/* *********************** */
+/* ECommerce APPLICATION   */
+/* *********************** */
+
+table.FulfillmentEcardPreviewTable {
+	border: 
+	padding: 10px 10px;
+}
+th.FulfillmentEcardPreviewTableCell {
+	border: 
+	padding: 10px 10px;
+}
+td.FulfillmentEcardPreviewTableCell {
+	border: 
+	padding: 10px 10px;
+}
+

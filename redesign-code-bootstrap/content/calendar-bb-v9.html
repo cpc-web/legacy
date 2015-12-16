@@ -1,0 +1,494 @@
+
+<!-- added CSS for calendar -->
+    <link href="http://cpc.convio.net/redesign/css/bootstrap-datetimepicker.css" rel="stylesheet">
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+
+<style type="text/css">
+	.filter-block {
+		width: 100%;
+		background-color:#ededed;
+		color: #565658;
+		padding:10px;
+
+	}
+	.filterButtons { 
+  		height: 44px;
+		padding:10px;
+		color: #565658;
+		margin: 20px 0px 0px 0px;
+		background-color:white;
+	 }
+
+	.filterButtons { 
+  		height: 44px;
+		width:100%;
+		padding:10px;
+		margin: 20px 0px 0px 0px;
+		background-color:white;
+	 }
+
+	.filter-category-head {width:100%;}
+
+	.input-group { width: 30%; margin: 10px; float:left;}
+
+	.date-filterStart {float:left; with:100px;}
+	.date-filterEnd {float:left; with:100px;}
+	.filter-category-head { width: 80%; height:50px; clear:both;}
+
+/*Tours Button*/	
+.btn-tours {
+  color: white;
+  background-color: #c15e20;
+  border-color: none;
+  border-radius: 0px;
+
+}
+
+.btn-tours:hover,
+.btn-tours:focus,
+.btn-tours:active,
+.btn-tours.active,
+.open .dropdown-toggle.btn-tours {
+  color: white;
+  background-color: #d87435;
+  border-color: none;
+}
+
+.btn-tours:active,
+.btn-tours.active,
+.open .dropdown-toggle.btn-tours {
+  background-image: none;
+}
+
+/*Benefit Events Button*/
+
+.btn-benefit {
+  color: white;
+  background-color: #3aa9af;
+  border-color: none;
+  border-radius: 0px;
+}
+
+.btn-benefit:hover,
+.btn-benefit:focus,
+.btn-benefit:active,
+.btn-benefit.active,
+.open .dropdown-toggle.btn-benefit {
+  color: white;
+  background-color: #4cc4ca;
+  border-color: none;
+}
+
+.btn-benefit:active,
+.btn-benefit.active,
+.open .dropdown-toggle.btn-benefit {
+  background-image: none;
+}
+	
+
+/*Exhibits Button*/
+
+.btn-exhibit {
+  color: white;
+  background-color: #f37053;
+  border-color: none;
+  border-radius: 0px;
+}
+
+.btn-exhibit:hover,
+.btn-exhibit:focus,
+.btn-exhibit:active,
+.btn-exhibit.active,
+.open .dropdown-toggle.btn-exhibit {
+  color: white;
+  background-color: #ed8972;
+  border-color: none;
+}
+
+.btn-exhibit:active,
+.btn-exhibit.active,
+.open .dropdown-toggle.btn-exhibit {
+  background-image: none;
+}
+	
+/*Sports Button*/
+
+.btn-sports {
+  color: white;
+  background-color: #008bc4;
+  border-color: none;
+  border-radius: 0px;
+}
+
+.btn-sports:hover,
+.btn-sports:focus,
+.btn-sports:active,
+.btn-sports.active,
+.open .dropdown-toggle.btn-sports {
+  color: white;
+  background-color: #249acb;
+  border-color: none;
+}
+
+.btn-sports:active,
+.btn-sports.active,
+.open .dropdown-toggle.btn-sports {
+  background-image: none;
+}
+
+/*Performance Button*/
+
+.btn-performance {
+  color: white;
+  background-color: da3068;
+  border-color: none;
+  border-radius: 0px;
+}
+
+.btn-performance:hover,
+.btn-performance:focus,
+.btn-performance:active,
+.btn-performance.active,
+.open .dropdown-toggle.btn-performance {
+  color: white;
+  background-color: #f33a77;
+  border-color: none;
+}
+
+.btn-performance:active,
+.btn-performance.active,
+.open .dropdown-toggle.btn-performance {
+  background-image: none;
+}
+
+/*Social Button*/
+
+.btn-social {
+  color: white;
+  background-color: #5ba86b;
+  border-color: none;
+  border-radius: 0px;
+}
+
+.btn-social:hover,
+.btn-social:focus,
+.btn-social:active,
+.btn-social.active,
+.open .dropdown-toggle.btn-social {
+  color: white;
+  background-color: #64bb76;
+  border-color: none;
+}
+
+.btn-social:active,
+.btn-social.active,
+.open .dropdown-toggle.btn-social {
+  background-image: none;
+}
+
+/*Talk Button*/
+
+.btn-talk {
+  color: white;
+  background-color: #a978b4;
+  border-color: none;
+  border-radius: 0px;
+}
+
+.btn-talk:hover,
+.btn-talk:focus,
+.btn-talk:active,
+.btn-talk.active,
+.open .dropdown-toggle.btn-talk {
+  color: white;
+  background-color: #b979c7;
+  border-color: none;
+}
+
+.btn-talk:active,
+.btn-talk.active,
+.open .dropdown-toggle.btn-talk {
+  background-image: none;
+}
+
+/*Volunteer Button*/
+
+.btn-volunteer {
+  color: white;
+  background-color: #acb430;
+  border-color: none;
+  border-radius: 0px;
+}
+
+.btn-volunteer:hover,
+.btn-volunteer:focus,
+.btn-volunteer:active,
+.btn-volunteer.active,
+.open .dropdown-toggle.btn-volunteer {
+  color: white;
+  background-color: #9ca423;
+  border-color: none;
+}
+
+.btn-volunteer:active,
+.btn-volunteeractive,
+.open .dropdown-toggle.btn-volunteer {
+  background-image: none;
+}
+
+</style>
+
+<!-- CMS component for events import -->
+<div style="display: none;" class="templateComponent" id="templatelist-495863264"></div>
+
+	<div class="container">
+
+        <div class="page-header">
+			<div class="type-row">
+				<div class="filterButtons">
+					<div class="btn-group">
+					  <button type="button" class="btn btn-tours">Tours</button>
+					  <button type="button" class="btn btn-benefit">Benefit Events</button>
+					  <button type="button" class="btn btn-exhibit">Exhibits</button>
+					  <button type="button" class="btn btn-sports">Sports</button>		
+					  <button type="button" class="btn btn-performance">Performances</button>
+					  <button type="button" class="btn btn-social">Social</button>
+					  <button type="button" class="btn btn-talk">Talks</button>
+					  <button type="button" class="btn btn-volunteer">Volunteer</button>
+					</div>
+				</div>
+			</div>
+			<div class="filter-block">
+				<div class="filter-main">
+					<div class="row filter-search-row">
+						<div class="filter-search">
+							<!--<p>Search:<i class="icon-search"></i><input type="search" placeholder="keywords" result="0"></input></p>-->
+
+							<div class="input-group">
+							  <input type="search" class="form-control">
+							  <span class="input-group-btn" >
+								<button class="btn btn-default" type="button" ><span class="glyphicon glyphicon-search"></span></button>
+							  </span>
+							</div>
+
+						</div>
+						<div id="date-picker" class="input-group date">
+							Go to Date: &nbsp;&nbsp;<input class="form-control" type="text" value="" size="16" />
+							<span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+						</div> <!--Here goes the data picker-->
+					</div>
+					<div class="row filter-category-row">
+						<div class="filter-category-head" >
+							<p>Filter by: <b>Categories</b><p>
+						</div>
+						<div class="filter-category-column">
+							<input type="checkbox" id="history-design" /><label>History & Design</label>
+							<input type="checkbox" id="benefit" /><label>Benefit Event</label>
+							<input type="checkbox" id="dogs" /><label>Dog Owners</label>
+							<input type="checkbox" id="fitness-recreation" /><label>Fitness & Recreation</label>
+						</div>
+						<div class="filter-category-column">
+							<input type="checkbox" id="free" /><label>Free Events</label>
+							<input type="checkbox" id="family" /><label>Kids & Families</label>
+							<input type="checkbox" id="member-programs" /><label>Member Programs</label>
+							<input type="checkbox" id="member-perks" /><label>Member Perks</label>
+						</div>
+						<div class="filter-category-column">
+							<input type="checkbox" id="partner" /><label>Partner Events</label>
+							<input type="checkbox" id="retail" /><label>Retail & Special Offer</label>
+							<input type="checkbox" id="nature-horticulture" /><label>Nature & Horticulture</label>
+							<input type="checkbox" id="cpc-event" /><label>CPC Event</label>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+
+		<div class="row">
+					<div class="col-md-2">
+							<button class="buttonPrev" data-calendar-nav="prev">&lt;&lt; Prev</button>
+					</div>
+					<div class="col-md-8 text-center">
+							<h3></h3>
+					</div>
+					<div class="col-md-2">
+							<button class="buttonNext" data-calendar-nav="next">Next &gt;&gt;</button>
+					</div>
+					<!--button class="btn" data-calendar-nav="today">Today</button-->
+							
+					<!-- NOT USING - HIDE FOR NOW - REMOVE LATER
+					<div class="btn-group">
+							<button class="btn btn-warning" data-calendar-view="year">Year</button>
+							<button class="btn btn-warning active" data-calendar-view="month">Month</button>
+							<button class="btn btn-warning" data-calendar-view="week">Week</button>
+							<button class="btn btn-warning" data-calendar-view="day">Day</button>
+					</div> -->
+			</div>
+			<!--small>To see example with events navigate to march 2013</small-->
+
+        <div class="row">
+                <div class="span9">
+                        <div id="calendar"></div>
+                </div>
+                <div class="span3">
+                		<!-- NOT USING - HIDE FOR NOW - REMOVE LATER
+                        <div class="row-fluid">
+                                <select id="first_day" class="span12">
+                                        <option value="" selected="selected">First day of week language-dependant</option>
+                                        <option value="2">First day of week is Sunday</option>
+                                        <option value="1">First day of week is Monday</option>
+                                </select>
+                                <select id="language" class="span12">
+                                        <option value="">Select Language (default: en-US)</option>
+                                        <option value="fr-FR">French</option>
+                                        <option value="de-DE">German</option>
+                                        <option value="el-GR">Greek</option>
+                                        <option value="it-IT">Italian</option>
+                                        <option value="pl-PL">Polish</option>
+                                        <option value="pt-BR">Portuguese (Brazil)</option>
+                                        <option value="es-MX">Spanish (Mexico)</option>
+                                        <option value="es-ES">Spanish (Spain)</option>
+                                        <option value="ru-RU">Russian</option>
+                                        <option value="sv-SE">Swedish</option>
+                                </select>
+                                <label class="checkbox">
+                                        <input type="checkbox" value="#events-modal" id="events-in-modal"> Open events in modal window
+                                </label>
+                        </div>
+
+                        <h4>Events</h4>
+                        <small>This list is populated with events dynamically</small>
+                        <ul id="eventlist" class="nav nav-list"></ul> -->
+                </div>
+        </div>
+
+		<!-- NOT USING - HIDE FOR NOW - REMOVE LATER
+        <div class="clearfix"></div>
+
+        <div class="modal hide fade" id="events-modal">
+                <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h3>Event</h3>
+                </div>
+                <div class="modal-body" style="height: 400px">
+                </div>
+                <div class="modal-footer">
+                        <a href="#" data-dismiss="modal" class="btn">Close</a>
+                </div>
+        </div> -->
+</div>
+
+
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="http://cpc.convio.net/redesign/js/bootstrap.min.js"></script>
+	<!-- js dependencies for calendar -->
+	<script type="text/javascript" src="http://cpc.convio.net/redesign/js/underscore-min.js"></script>
+	<script type="text/javascript" src="http://cpc.convio.net/redesign/components/jstimezonedetect/jstz.min.js"></script>
+    <script type="text/javascript" src="http://cpc.convio.net/redesign/js/calendar-cpc-v5-4.js"></script>
+	<script type="text/javascript" src="http://cpc.convio.net/redesign/js/bootstrap-datetimepicker.js"></script>
+	<!--script type="text/javascript" src="http://cpc.convio.net/redesign/js/app-cpc.js"></script-->
+
+	<!-- in-page additional scripts -->
+	<script type="text/javascript">// <![CDATA[
+		(function($) {
+			
+			"use strict";
+			var eventsList = [];
+			
+			$(document).ready(function() {
+				$('.eventJSON').each(function() {
+					var element = $(this).text();
+					var JSONelement = $.parseJSON(element);
+					var elementString = JSONelement.dateform.toString();
+					var startString = elementString.concat(' ').concat(JSONelement.starttime.toString());
+					var endString = elementString.concat(' ').concat(JSONelement.endtime.toString());
+					//var elementDate = Date.parse(elementString);
+					var myStart = Date.parse(startString);
+					var myEnd = Date.parse(endString);
+					//alert('this date '+elementString+' as date: '+elementDate+' start: '+startString+' as date:'+myStart+' end '+endString+' as date: '+myEnd);
+					JSONelement.popoverContent = '<div class="popoverHide" id="popoverID'+JSONelement.id+'"><img src="'+JSONelement.image+'" /><p><b>'+JSONelement.title+'<br />When: '+JSONelement.starttime+'<br />Where: '+JSONelement.location+'</b><br /><br />'+JSONelement.short_description+'<br /><br /><a class="btnGet" role="button" href="'+JSONelement.url+'">+INFO AND TICKETS</a></div>';
+					JSONelement.start = myStart;
+					JSONelement.end = myEnd;
+					eventsList.push(JSONelement);
+				});
+				console.log('load',eventsList);
+				
+				/*var targetday = parseInt(this.options.day.slice(8,10));
+				var firstday = this.options.position.start.getDay();
+				var day_in_month = targetday + firstday;
+				var week_in_month = parseInt(day_in_month / 7);
+				this.options.week_in_month = week_in_month;*/
+			
+
+				var options = {
+					events_source: eventsList,
+					view: 'month',
+					tmpl_path: 'tmpls/',
+					tmpl_cache: false,
+					day: 'now',
+					onAfterEventsLoad: function(events) {
+					},
+					onAfterViewLoad: function(view) {
+						$('.page-header h3').text(this.getTitle());	// <======= THIS does header
+						$('.btn-group button').removeClass('active');
+						$('button[data-calendar-view="' + view + '"]').addClass('active');
+						var focusDate = this.options.day;
+						$('[data-cal-date="'+focusDate+'"]').closest('.cal-cell1').addClass('day-highlight');
+					},
+					classes: {
+						months: {
+							general: 'label'
+						}
+					},
+					modal: '#events-modal'
+				};
+
+				var calendar = $('#calendar').calendar(options);
+
+				$('button[data-calendar-nav]').each(function() {
+					var $this = $(this);
+					$this.click(function() {
+						calendar.navigate($this.data('calendar-nav'));
+					});
+				});
+				
+				$('#date-picker').datetimepicker({
+                    pickTime: false
+                });
+				$('#date-picker').on('change.dp', function(ev){
+					alert('date picked: '+ev.date);
+				});
+
+				/*$('.btn-group button[data-calendar-view]').each(function() {
+					var $this = $(this);
+					$this.click(function() {
+						calendar.view($this.data('calendar-view'));
+					});
+				});
+
+				$('#first_day').change(function(){
+					var value = $(this).val();
+					value = value.length ? parseInt(value) : null;
+					calendar.setOptions({first_day: value});
+					calendar.view();
+				});
+
+				$('#language').change(function(){
+					calendar.setLanguage($(this).val());
+					calendar.view();
+				});
+
+				$('#events-in-modal').change(function(){
+					var val = $(this).is(':checked') ? $(this).val() : null;
+					calendar.setOptions({modal: val});
+				});
+				$('#events-modal .modal-header, #events-modal .modal-footer').click(function(e){
+					e.preventDefault();
+					e.stopPropagation();
+				});*/
+				//console.log('firing second view - day is '+calendar.options.day+' and week is '+calendar.options.week_in_month);
+				//calendar.view();
+			})
+			
+		})(jQuery);
+	// ]]></script>

@@ -1,0 +1,324 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="doc-assets/favicon.png">
+
+<title>CPC Bootstrap Homepage - BBv2</title>
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<!-- Just for debugging purposes. Don't actually copy this line! -->
+<!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+
+<!-- Custom styles for this template -->
+<link href="css/carousel.css" rel="stylesheet">
+<style type="text/css">
+	body {
+		padding-bottom: 0px;
+	}
+	.navbar-static-top {
+		margin-bottom: 0px;
+	}
+	.navbar-wrapper {
+		top: 50px;
+		margin-top: 0;
+	}
+	.navbar-nav > li {
+		margin-left: 2vw;
+	}
+	.navbar-right > li > input {
+		margin: 15px;
+	}
+	.container .jumbotron {
+		margin-bottom: 0px;
+		border-radius: 0px;
+		padding: 10px;
+		opacity: 0.8;
+		background-color: #77C043;
+		color: #FFFFFF;
+	}
+	.jumbotron h1 {
+		margin: 10px;
+		font-size: 50px;
+	}
+	.jumbotron h3 {
+		margin: 10px;
+		font-size: 20px;
+	}
+	.firstnav {
+		background-color: #777777;
+	}
+	.carousel {
+		height: 600px;
+		margin-bottom: 15px;
+	}
+	.carousel .item, .carousel .item img {
+		height: 600px;
+	}
+	.carousel-overlay {
+		width: 100%;
+		position: absolute;
+		top: 200px;
+	}
+	.carousel-indicators {
+		left: auto;
+		bottom: auto;
+		top: 285px;
+		margin-left: 15px;
+		width: 50px;
+		text-align: none;
+	}
+	.carousel-caption {
+		background-color: #777777;
+		padding: 10px;
+		bottom: 80px;
+		right: 12%;
+		left: 66%;
+	}
+	.carousel-caption p {
+		margin: 0;
+	}
+	#todayBox {
+		background-color: #777777;
+		z-index: 100;
+		position: absolute;
+		margin-left: 15px;
+	}
+	#todayPop {
+		display: none;
+	}
+	.knockout, .knockout > li > a {
+		color: #FFFFFF;
+	}
+	.centerGreen {
+		height: 80px;
+		opacity: 0.8;
+		background-color: #77C043;
+		position: absolute;
+		bottom: 0px;
+		width: 100%;
+	}
+	.centerGreen .iconDiv {
+		padding: 20px 0 0 50px;
+		height: 80px;
+	}
+	.centerGreen .iconDiv .lg-icon {
+		font-size: 48px;
+		margin-right: 10px;
+		float: left;
+	}
+	footer {
+		background: #77C043 url('cpc-foot-bkgd.jpg') repeat-x;
+		height: 206px;
+		color: #FFFFFF;
+		padding: 75px;
+	}
+	footer a {
+		color: #FFFFFF;
+	}
+</style>
+</head>
+
+<body>
+	<!-- NAVBAR	================================================== -->
+	<div class="navbar navbar-static-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">CPC Logo</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">About the Conservancy</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#about">Connect</a></li>
+					<li><a href="#contact">Login</a></li>
+					<li><a href="#contact">Donate</a></li></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="navbar-wrapper">
+		<div class="container">
+			<div class="jumbotron text-center">
+				<h3>Official Website of New York City's</h3><h1>Central Park</h1>
+			</div>
+			<div class="navbar-collapse collapse firstnav">
+				<ul class="nav navbar-nav knockout">
+					<li class="dropdown active"><a href="#">About Central Park</a></li>
+					<li class="dropdown"><a href="#about">Explore</a></li>
+					<li class="dropdown"><a href="#about">Map</a></li>
+					<li class="dropdown"><a href="#about">Events</a></li>
+					<li class="dropdown"><a href="#about">Support</a></li>
+					<li class="dropdown"><a href="#about">Store</a></li>
+					<!--li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Croquetas</a></li>
+							<li><a href="#">Tortilla</a></li>
+							<li><a href="#">Me gusta la Paella</a></li>
+							<li class="divider"></li>
+							<li class="dropdown-header">Nav header</li>
+							<li><a href="#">Separated link</a></li>
+							<li><a href="#">One more separated link</a></li>
+						</ul>
+					</li-->
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><input type="text" placeholder="Search"></input></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- Carousel	================================================== -->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<div class="carousel-overlay">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 knockout" id="todayBox">
+						<h3>TODAY IN CENTRAL PARK</h3>
+						<div id="todayPop">
+							<p>Weather: Lorem Ipsum</p>
+						</div>
+					</div>
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>
+				</div>
+				<!--div class="row">
+					<div class="col-md-1">
+					<p>test test test</p>
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>
+					</div>
+				</div-->
+			</div>
+		</div>
+		<div class="carousel-inner">
+			<div class="item active">
+				<img  alt="First slide" src="columbus_test_slide_v1.jpg" />
+				<div class="container">
+					<div class="carousel-caption">
+						<p>Columbus Up Close</p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img alt="Second slide" src="mall_test_slide_v1.jpg" />
+				<div class="container">
+					<div class="carousel-caption">
+					  <p>The Mall In Autumn</p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img alt="Third slide" src="blooms_test_slide_v1.jpg" />
+				<div class="container">
+					<div class="carousel-caption">
+						<p>Spring Blooms</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="centerGreen knockout">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 iconDiv">
+						<span class="glyphicon glyphicon-calendar lg-icon"></span>
+						<p>EVENTS<br />See what is happening</p>
+					</div>
+					<div class="col-md-4 iconDiv">
+						<span class="lg-icon glyphicon glyphicon-map-marker"></span>
+						<p>MAP<br />Find your way around</p>
+					</div>
+					<div class="col-md-4 iconDiv">
+						<span class="lg-icon glyphicon glyphicon-comment"></span>
+						<p>BLOG<br />Learn fun and captivating facts</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+	</div><!-- /.carousel -->
+	
+
+	<!-- Marketing messaging and featurettes
+	================================================== -->
+	<!-- Wrap the rest of the page in another container to center all the content. -->
+
+	<div class="container marketing">
+
+	  <!-- Three columns of text below the carousel -->
+		<div class="row">
+			<div class="col-lg-4">
+				<h2>Staff Profile</h2>
+				<img class="img-responsive" src="marketing-image-1.jpg" data-src="holder.js/140x140" alt="staff  profile" />
+				<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+				<p><a class="btn btn-default" href="#" role="button">Haz click aquí hombre! &raquo;</a></p>
+			</div><!-- /.col-lg-4 -->
+			<div class="col-lg-4">
+				<h2>Social Media</h2>
+				<img class="img-responsive" src="marketing-image-2.jpg" data-src="holder.js/140x140" alt="Generic placeholder image">
+				<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+				<p><a class="btn btn-default" href="#" role="button">Haz click aquí hombre! &raquo;</a></p>
+			</div><!-- /.col-lg-4 -->
+			<div class="col-lg-4">
+				<h2>Get Email Updates</h2>
+				<img class="img-responsive" src="marketing-image-3.jpg" data-src="holder.js/140x140" alt="Generic placeholder image">
+				<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+				<p><a class="btn btn-default" href="#" role="button">Haz click aquí hombre! &raquo;</a></p>
+			</div><!-- /.col-lg-4 -->
+		</div><!-- /.row -->
+	</div><!-- /.container -->
+
+	<!-- FOOTER -->
+	<footer>
+		<div class="container">
+			<div id="footercenter" class="text-center">
+				<a href="http://www.centralparknyc.org/index.html">Home</a> | <a href="http://www.centralparknyc.org/donate/">Donate</a> | <a href="http://support.centralparknyc.org/site/Search">Search</a> | <a href="http://www.centralparknyc.org/about/inside-the-conservancy/mission-core-values.html">Mission</a> | <a href="http://www.centralparknyc.org/about/inside-the-conservancy/privacy/">Privacy</a> | <a href="http://support.centralparknyc.org/site/ConsProfileUser">Your Preferences</a>&nbsp;| <a href="http://www.centralparknyc.org/about/job-opportunities/">Jobs</a> | <a href="http://www.centralparknyc.org/adminhome/">Admin</a> | <a href="http://www.centralparknyc.org/contact-us.html">Contact Us</a>
+			</div>
+			<div id="footertext" class="text-center">
+				<p>Central Park Conservancy, 14 E. 60th St, New York, NY, 10022&nbsp;&nbsp;Phone: 212-310-6600</p>
+				<p>&copy; 2010, Central Park Conservancy. All Rights Reserved.</p>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<!--script src="js/jquery-1.8.3.min.js"></script-->
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

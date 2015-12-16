@@ -1,0 +1,163 @@
+<!-- all tours NEW - v4 - 11April2014 -->
+<link href="http://cpc.convio.net/cpc-eventix/tourpage_styles.css" rel="stylesheet" type="text/css" /> <link href="http://cpc.convio.net/site/PageServer?pagename=event_tix_styles&amp;pgwrap=n" rel="stylesheet" type="text/css" />
+<style type="text/css">
+
+</style>
+
+<link href="http://cpc.convio.net/css/tabs/jquery-ui-1.10.3.custom.css" rel="stylesheet" type="text/css" />
+
+<div id="urid" style="display: none">${param.urid}</div>
+<!-- LOAD all parent and child events first -->
+<div id="parentXML" style="display: none;">
+<div class="templateComponent" id="templatelist-504554357" style="display: inline;"></div>
+</div>
+<div id="eventXML" style="display: none;">
+<div class="templateComponent" id="templatelist-504554358" style="display: inline;"></div>
+</div>
+<div id="parentPopovers" style="display: none;"></div>
+<div id="landingTour" style="display: none;">${param.tourid}</div>
+<div id="landingParent" style="display: none;">${param.parentid}</div>
+<div id="vcStaff" style="display: none;">${param.vcstaff}</div>
+<div id="isAnon" style="display: none;"><t:if test="user.isanonymous == true">true</t:if><t:else><t:value id="user.fullname"></t:value></t:else></div>
+<div id="isMember" style="display: none;">no</div>
+<div id="topCopy">
+
+
+<p>Learn the story of the Park&rsquo;s history, design, and ecology and get an insider&rsquo;s look at the world&rsquo;s greatest urban park with the people who take care of it. Welcome Tours are free and offer and introduction to some of the Park's most well-known highlights. Premier Tours are ticketed and focus on more specialized topics, plus they are the only tours that help support the care of Central Park!</p>
+<p><a href="https://secure2.convio.net/cpc/site/SPageServer?pagename=membership&amp;s_src=website&amp;s_subsrc=RD_guided_tours" target="_blank">Become a member of the Conservancy</a> to receive discounts on ticketed tours and access to members-only tours.</p>
+<p>Space is limited; advance registration suggested for ticketed tours. Groups of seven or more must schedule a <a href="/preview!www.centralparknyc.org/2014/tours/guided-tours/custom-tours.html">Group Tour</a>.</p>
+</div>
+<h3 class="h3">Schedule</h3>
+<div id="parentSection">
+<div id="tourListHorizontal" style="margin-top: 20px;">
+<div class="row lineTours odd">
+<div class="col-md-4"><em>Schedule goes here</em></div>
+</div>
+</div>
+<!-- main multi-tour listing -->
+<div class="btnDates showMore">See More Dates &gt;</div>
+</div>
+<div id="cancelled" style="float: left; width: 250px; display: none;">
+<h2>SORRY, THIS TOUR IS CANCELLED.</h2>
+<br /><br /><br /></div>
+<div id="soldOut" style="float: left; width: 250px; display: none;">
+<h2>SORRY, THIS TOUR IS SOLD OUT.</h2>
+<br /><br /><br /></div>
+<!-- BEGIN scripts for dynamic event content -->
+<script type="text/javascript">// <![CDATA[
+jQuery.noConflict();
+// ]]></script>
+<script type="text/javascript">// <![CDATA[
+if(  document.addEventListener  ) {
+	//alert("you got IE9 or greater");
+	var dunny = 0;
+	//window.location='http://www.centralparknyc.org/visit/tours/guided-tours/guided-tours-info.html';
+} else {
+	window.location='http://www.centralparknyc.org/visit/tours/guided-tours/guided-tours-info.html';
+}
+
+(function($) {
+	
+	var results = [];
+	
+	function listEvents(){
+		//results = [];
+		//alert('testing '+myID);
+		$("#tourListHorizontal").html('');
+		$('#tourListHorizontal').off('click');
+		$('#tourListHorizontal').html('');
+		$('#tourListHorizontal').attr('style', 'margin-top: 0px;');
+		$('.tourListHeading').html('<h2>Schedule of Tours</h2>');
+		var childEvents = $('#eventXML').find('Event');
+		childEvents.each(function(index) {
+			var myType = $(this).find('type').text();
+			if (myType == 'tours') {
+				var thisID = parseInt($(this).find('id').text());
+				var thisParentID = parseInt($(this).find('parent').text());
+				var myName = $('#'+thisParentID).find('name:first').text();
+				//alert('parent '+myParent+' named '+myName);
+				var myDate = $(this).find('date').text();
+				var myTime = $(this).find('time').text();
+				var myURL = $(this).find('url').text();
+				var myTicketed = $(this).find('ticketed').text();
+				var clas = (index % 2) == 0 ? 'odd' : 'even';
+				var hideclas = index < 12 ? 'show' : 'hidden';
+				if (myTicketed == 'Ticketed') {
+					$('#tourListHorizontal').append('<div class="row lineTours '+hideclas+' '+clas+'"><div style="display: none;">Event ID: '+thisID+'</div><div class="col-md-2 dateColumn" id="dateRow'+thisID+'">' + myDate + '<br />'+myTime+'</div><div class="col-md-3 nameColumn h4">'+myName+'</div><div><div class="col-md-2 btnTours tourDetails" data-event-id="'+thisID+'" data-contentwrapper="#popoverID'+thisParentID+'" data-toggle="popover">Tour Details</div></div><div class="col-md-2"><a href="'+myURL+'"><div class="btnPurchase purchaseTix">Get Tickets</div></a></div></div>');
+				} else {
+					$('#tourListHorizontal').append('<div class="row lineTours '+hideclas+' '+clas+'"><div style="display: none;">Event ID: '+thisID+'</div><div class="col-md-2 dateColumn" id="dateRow'+thisID+'">' + myDate + '<br />'+myTime+'</div><div class="col-md-3 nameColumn h4">'+myName+'</div><div><div class="col-md-2 btnTours tourDetails" data-event-id="'+thisID+'" data-contentwrapper="#popoverID'+thisParentID+'" data-toggle="popover">Tour Details</div></div><div class="col-md-2"><a href="'+myURL+'"><div class="btnMore moreInfo">+ Info</div></a></div></div>');
+				}
+			}
+		});
+	}
+	
+	function parentDetails(){
+		$("#parentPopovers").html('');
+		var events = $('#parentXML').find('Event');
+		events.each(function(index) {
+			var myID = $(this).find('id').text();
+			var myName = $(this).find('name:first').text();
+			var myLocation = $(this).find('location').html();
+			var myImg = $(this).find('imgurl').text();
+			var myDesc = $(this).find('short_description').html();
+			// write to page
+			$('#parentPopovers').append('<div class="popoverHide" id="popoverID'+myID+'"><img class="popImage" src="'+myImg+'" /><p><b>'+myName+'</b><br />Location: '+myLocation+'<br /><br />'+myDesc+'</div>');
+		});
+	}
+	
+	function showMore() {
+		$('#tourListHorizontal div.hidden').each(function(index) {
+			if(index < 10) {
+				$(this).removeClass('hidden').addClass('show');
+			}
+		});
+	}
+	
+	////////////////////////////// END TICKET APP METHODS /////////////////////////
+	
+	function setUrid(urid) {
+		$.ajax({
+			url: window.location+'&s_urid='+urid,
+			success: function(data, textStatus, jqxhr){
+				console.log('ajax sesh variable success...');
+				console.log(data.responseText);
+				console.log(textStatus);
+				console.log(jqxhr);
+			},
+			error: function(data, textStatus, jqxhr){
+				console.log('ajax sesh variable failure...');
+				console.log(data.responseText);
+				console.log(textStatus);
+				console.log(jqxhr);
+			}
+		});
+		setCookie('CPC_mobilead',urid);
+	}
+	
+	/* onload */
+	$(function() {
+	
+		myUrid = $('#urid').text();
+		if (myUrid) { 
+			setUrid(myUrid);
+		}
+		
+		parentDetails();
+		listEvents();
+		$('.showMore').click(showMore);
+		
+		//	========	POPOVER CONTROL for event details display	*********************
+		$('*[data-toggle="popover"]').popover({
+			container: 'body',
+			placement: 'auto right',
+			trigger: 'hover',
+			html: 'true',
+			delay: {show: 50, hide: 300},
+			content:function(){
+				return $($(this).data('contentwrapper')).html();
+			}
+		});
+	})
+})(jQuery);
+// ]]></script>
+<!-- END TABS TABS TABS -->

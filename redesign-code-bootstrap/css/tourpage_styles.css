@@ -1,0 +1,139 @@
+
+	#tourListHorizontal tr { margin: 10px 0; }
+	.showMore { width: 200px; }
+	.nameColumn, .dateColumn { min-width: 30%; }
+	.tourDetails, .moreInfo, .purchaseTix { width: 100px; }
+
+
+.btnTours {
+	color: #525252;
+	font-size: 12px;
+	background: none repeat scroll 0% 0% #eceee8;
+ 	 padding: 6px 10px 6px 10px;
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 50px;
+    text-align:center;
+    -webkit-box-shadow: 2px 2px 1px #8f8f8f;
+  -moz-box-shadow: 2px 2px 1px #8f8f8f;
+  box-shadow: 2px 2px 1px #8f8f8f;
+  -webkit-border-radius: 34;
+  -moz-border-radius: 34;
+  border-radius: 34px;
+  cursor: copy;
+  text-transform:uppercase;
+    
+}
+
+.btnTours:hover {
+  background: #e3e3e3;
+  text-decoration: none;
+}
+
+
+.btnPurchase {
+ background: #f2a19f;
+  background-image: -webkit-linear-gradient(top, #f2a19f, #d23030);
+  background-image: -moz-linear-gradient(top, #f2a19f, #d23030);
+  background-image: -ms-linear-gradient(top, #f2a19f, #d23030);
+  background-image: -o-linear-gradient(top, #f2a19f, #d23030);
+  background-image: linear-gradient(to bottom, #f2a19f, #d23030);
+  -webkit-border-radius: 34;
+  -moz-border-radius: 34;
+  border-radius: 34px;
+  -webkit-box-shadow: 2px 2px 1px #999999;
+  -moz-box-shadow: 2px 2px 1px #999999;
+  box-shadow: 2px 2px 1px #999999;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 6px 12px 6px 12px;
+  text-decoration: none;
+  text-transform:uppercase;
+  width:100%;
+  text-align:center;
+}
+
+.btnPurchase:hover {
+  background: #d23130;
+  text-decoration: none;
+}
+
+
+.btnMore {
+  -webkit-box-shadow: 2px 2px 1px #666666;
+  -moz-box-shadow: 2px 2px 1px #666666;
+  box-shadow: 2px 2px 1px #8f8f8f;
+  -webkit-border-radius: 34;
+  -moz-border-radius: 34;
+  border-radius: 34px;
+  color: #ffffff;
+  font-size: 13px;
+  background: #a5d96a;
+  background-image: -webkit-linear-gradient(top, #a5d96a, #66b322);
+  background-image: -moz-linear-gradient(top, #a5d96a, #66b322);
+  background-image: -ms-linear-gradient(top, #a5d96a, #66b322);
+  background-image: -o-linear-gradient(top, #a5d96a, #66b322);
+  background-image: linear-gradient(to bottom, #a5d96a, #66b322);
+  padding: 5px 5px 5px 5px;
+  text-decoration: none;
+  text-transform:uppercase;
+  width:100%;
+  text-align:center;
+}
+
+.btnMore:hover {
+  background: #66b322;
+  text-decoration: none;
+}
+
+
+
+#contentMain { width: 935px;  line-height: 18px; }
+
+h1 { font-size: 42px; color: #78c043; font-weight: normal; }
+h2 { font-size: 32px; line-height: 40px; color: #666666; font-weight: normal; }
+.h3 { padding: 8px; font-weight: bold; background-color: rgb(236, 238, 232); text-transform: uppercase; }
+
+
+
+
+#parentTable {
+	width: 597px;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+background-color:#f0f1ee
+}
+
+
+#parentTable td {
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	font-size: 16px;
+
+}
+
+
+p {
+
+    font-size: 14px;
+    font-family: 'Titling Gothic FB Narr', sans-serif;
+
+}
+
+
+#parentTable td a, #parentTable td a:link, #parentTable td a:visited {
+	color: #666666;
+	text-decoration: underline;
+}
+#parentTable td a:hover, #parentTable tr:hover a {
+	color: #3c9314;
+	text-decoration: underline;
+}
+#parentTable tr.green td {
+	background: #d0e9bd;
+}
+
+.btnDates {font-weight: bold; font-size:15px; margin-top:20px; cursor:pointer; color:#77C043;}
+
+
+.lineTours {padding-bottom:15px; padding-top:15px; border-bottom: solid 1px lightgrey; margin-right: 0px; margin-left: 0px;}

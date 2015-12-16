@@ -1,0 +1,64 @@
+/* CSS Style for Print Friendly Mode */
+/* Made with love in Central Park Conservancy - 2014 */
+/*////////////////////////////////////////////*/
+
+
+body { background-color:#fff;}
+
+h2 { margin-top:10px !important;}
+
+#wrapper {
+	width: 900px; 
+	margin: 0 auto;
+}
+
+.right_box_flex, #right_column, #right_content, #left_content, .slides, #alert, #cv-poweredBy { display:none;}
+
+
+#print_footer {
+	padding:10px;
+	width: 900px;
+	clear: both;
+	border-top: 1px solid #ccc;
+}
+
+#right_column .right_box_flex p, .home #right_column .right_box_flex p { margin: 0 0 .5em 0;}
+
+#contentDiv { margin: 0;}
+
+.clearfix:after {
+	content: ".";	
+	display: block;	
+	clear: both;	
+	visibility: hidden;	
+	line-height: 0;
+	height: 0;	
+}
+
+
+.clearfix {	display: inline-block;}
+
+
+html[xmlns] .clearfix { display: block;}
+
+
+/* Last Changes 14/7/2014 */
+.top-image > img{ display:none;}
+
+#left_box_map { margin-top:-20px;}
+#left_box_map > img { display:none;}
+
+.dropdown-menu-share, .dropdownShare, .sectionToggle { display:none;}
+
+#subnav { display:none;}
+
+#print_header { padding:0px;}
+
+#filter-criteria-539138335 { display:none !important;}
+
+#breadcrumbs { display:none;}
+
+
+
+
+

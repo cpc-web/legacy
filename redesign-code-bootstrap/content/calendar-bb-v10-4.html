@@ -1,0 +1,773 @@
+<!-- calendar v10.3 -->
+<!-- added CSS for calendar -->
+<!-- adding in Carla's styles from standalone v9 -->
+	<!--link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet"-->
+	<link href="http://cpc.convio.net/redesign/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
+
+<!--<style type="text/css">
+	.filter-block {
+		width: 100%;
+		background-color:#dcdcdc;
+		color: #565658;
+		padding:10px;
+	    font-weight: normal;
+		position: relative;
+	}
+
+
+.btn-groupCalendar {
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+    width: 100%;
+}
+
+	.filterButtons { 
+  		height: 44px;
+		width:100%;
+		color: #565658;
+		margin: 20px 0px -10px 0px;
+		background-color:white;
+	 }
+
+
+	.input-group { width: 30%; margin: 10px; float:left;}
+
+		.btn-default {
+			color: #333;
+			background-color: #FFF;
+			border-color: #CCC;
+		}
+
+	.date-filterStart {float:left; with:100px;}
+	.date-filterEnd {float:left; with:100px;}
+	.filter-category-head { width: 80%; height:50px; clear:both;}
+
+/*Tours Button*/	
+.btn-tours {
+  color: white;
+  background-color: #c15e20;
+  border-color: none;
+  border-radius: 0px;
+  width:20%;
+
+}
+
+.btn-tours:hover,
+.btn-tours:focus,
+.btn-tours:active,
+.btn-tours.active,
+.open .dropdown-toggle.btn-tours {
+  color: white;
+  background-color: #d87435;
+  border-color: none;
+}
+
+.btn-tours:active,
+.btn-tours.active,
+.open .dropdown-toggle.btn-tours {
+  background-image: none;
+}
+
+
+.btn-tours:active,
+.btn-tours.active,
+.open .dropdown-toggle.btn-tours {
+  background-image: none;
+}
+
+.btn-tours.disabled,
+.btn-tours[disabled],
+fieldset[disabled] .btn-tours,
+.btn-tours.disabled:hover,
+.btn-tours[disabled]:hover,
+fieldset[disabled] .btn-tours:hover,
+.btn-tours.disabled:focus,
+.btn-tours[disabled]:focus,
+fieldset[disabled] .btn-all:focus,
+.btn-tours.disabled:active,
+.btn-tours[disabled]:active,
+fieldset[disabled] .btn-tours:active,
+.btn-tours.disabled.active,
+.btn-tours[disabled].active,
+fieldset[disabled] .btn-tours.active {
+  background-color: #ffffff;
+}
+
+.btn-all .badge {
+  color: #ffffff;
+}
+
+
+/*Benefit Events Button*/
+
+.btn-benefit {
+  color: white;
+  background-color: #3aa9af;
+  border-color: none;
+  border-radius: 0px;
+  width:20%;
+
+}
+
+.btn-benefit:hover,
+.btn-benefit:focus,
+.btn-benefit:active,
+.btn-benefit.active,
+.open .dropdown-toggle.btn-benefit {
+  color: white;
+  background-color: #4cc4ca;
+  border-color: none;
+}
+
+.btn-benefit:active,
+.btn-benefit.active,
+.open .dropdown-toggle.btn-benefit {
+  background-image: none;
+}
+
+.btn-benefit.disabled,
+.btn-benefit[disabled],
+fieldset[disabled] .btn-benefit,
+.btn-benefit.disabled:hover,
+.btn-benefit[disabled]:hover,
+fieldset[disabled] .btn-benefit:hover,
+.btn-benefit.disabled:focus,
+.btn-benefit[disabled]:focus,
+fieldset[disabled] .btn-benefit:focus,
+.btn-benefit.disabled:active,
+.btn-benefit[disabled]:active,
+fieldset[disabled] .btn-benefit:active,
+.btn-benefit.disabled.active,
+.btn-benefit[disabled].active,
+fieldset[disabled] .btn-benefit.active {
+  background-color: #ffffff;
+}
+
+.btn-benefit .badge {
+  color: #ffffff;
+}
+	
+
+
+/*Exhibits Button*/
+
+.btn-exhibit {
+  color: white;
+  background-color: #f37053;
+  border-color: none;
+  border-radius: 0px;
+  width:20%;
+
+}
+
+.btn-exhibit:hover,
+.btn-exhibit:focus,
+.btn-exhibit:active,
+.btn-exhibit.active,
+.open .dropdown-toggle.btn-exhibit {
+  color: white;
+  background-color: #ed8972;
+  border-color: none;
+}
+
+.btn-exhibit:active,
+.btn-exhibit.active,
+.open .dropdown-toggle.btn-exhibit {
+  background-image: none;
+}
+
+.btn-exhibit.disabled,
+.btn-exhibit[disabled],
+fieldset[disabled] .btn-exhibit,
+.btn-exhibit.disabled:hover,
+.btn-exhibit[disabled]:hover,
+fieldset[disabled] .btn-exhibit:hover,
+.btn-exhibit.disabled:focus,
+.btn-exhibit[disabled]:focus,
+fieldset[disabled] .btn-exhibit:focus,
+.btn-exhibit.disabled:active,
+.btn-exhibit[disabled]:active,
+fieldset[disabled] .btn-exhibit:active,
+.btn-exhibit.disabled.active,
+.btn-exhibit[disabled].active,
+fieldset[disabled] .btn-exhibit.active {
+  background-color: #ffffff;
+}
+
+.btn-exhibit .badge {
+  color: #ffffff;
+}	
+
+/*Sports Button*/
+
+.btn-sports {
+  color: white;
+  background-color: #008bc4;
+  border-color: none;
+  border-radius: 0px;
+  width:20%;
+
+}
+
+.btn-sports:hover,
+.btn-sports:focus,
+.btn-sports:active,
+.btn-sports.active,
+.open .dropdown-toggle.btn-sports {
+  color: white;
+  background-color: #249acb;
+  border-color: none;
+}
+
+.btn-sports:active,
+.btn-sports.active,
+.open .dropdown-toggle.btn-sports {
+  background-image: none;
+}
+
+.btn-sports.disabled,
+.btn-sports[disabled],
+fieldset[disabled] .btn-sports,
+.btn-sports.disabled:hover,
+.btn-sports[disabled]:hover,
+fieldset[disabled] .btn-sports:hover,
+.btn-sports.disabled:focus,
+.btn-sports[disabled]:focus,
+fieldset[disabled] .btn-sports:focus,
+.btn-sports.disabled:active,
+.btn-sports[disabled]:active,
+fieldset[disabled] .btn-sports:active,
+.btn-sports.disabled.active,
+.btn-sports[disabled].active,
+fieldset[disabled] .btn-sports.active {
+  background-color: #ffffff;
+}
+
+.btn-sports .badge {
+  color: #ffffff;
+}	
+/*Performance Button*/
+
+.btn-performance {
+  color: white;
+  background-color: #da3068;
+  border-color: none;
+  border-radius: 0px;
+  width:20%;
+
+}
+
+.btn-performance:hover,
+.btn-performance:focus,
+.btn-performance:active,
+.btn-performance.active,
+.open .dropdown-toggle.btn-performance {
+  color: white;
+  background-color: #f33a77;
+  border-color: none;
+}
+
+.btn-performance:active,
+.btn-performance.active,
+.open .dropdown-toggle.btn-performance {
+  background-image: none;
+}
+
+
+.btn-performance.disabled,
+.btn-performance[disabled],
+fieldset[disabled] .btn-performance,
+.btn-performance.disabled:hover,
+.btn-performance[disabled]:hover,
+fieldset[disabled] .btn-performance:hover,
+.btn-performance.disabled:focus,
+.btn-performance[disabled]:focus,
+fieldset[disabled] .btn-performance:focus,
+.btn-performance.disabled:active,
+.btn-performance[disabled]:active,
+fieldset[disabled] .btn-performance:active,
+.btn-performance.disabled.active,
+.btn-performance[disabled].active,
+fieldset[disabled] .btn-performance.active {
+  background-color: #ffffff;
+}
+
+.btn-performance .badge {
+  color: #ffffff;
+}	
+
+/*Social Button*/
+
+.btn-social {
+  color: white;
+  background-color: #5ba86b;
+  border-color: none;
+  border-radius: 0px;
+  width:20%;
+
+}
+
+.btn-social:hover,
+.btn-social:focus,
+.btn-social:active,
+.btn-social.active,
+.open .dropdown-toggle.btn-social {
+  color: white;
+  background-color: #64bb76;
+  border-color: none;
+}
+
+.btn-social:active,
+.btn-social.active,
+.open .dropdown-toggle.btn-social {
+  background-image: none;
+}
+
+.btn-social.disabled,
+.btn-social[disabled],
+fieldset[disabled] .btn-social,
+.btn-social.disabled:hover,
+.btn-social[disabled]:hover,
+fieldset[disabled] .btn-social:hover,
+.btn-social.disabled:focus,
+.btn-social[disabled]:focus,
+fieldset[disabled] .btn-social:focus,
+.btn-social.disabled:active,
+.btn-social[disabled]:active,
+fieldset[disabled] .btn-social:active,
+.btn-social.disabled.active,
+.btn-social[disabled].active,
+fieldset[disabled] .btn-social.active {
+  background-color: #ffffff;
+}
+
+.btn-social .badge {
+  color: #ffffff;
+}	
+
+
+/*Talk Button*/
+
+.btn-talk {
+  color: white;
+  background-color: #a978b4;
+  border-color: none;
+  border-radius: 0px;
+  width:20%;
+
+}
+
+.btn-talk:hover,
+.btn-talk:focus,
+.btn-talk:active,
+.btn-talk.active,
+.open .dropdown-toggle.btn-talk {
+  color: white;
+  background-color: #b979c7;
+  border-color: none;
+}
+
+.btn-talk:active,
+.btn-talk.active,
+.open .dropdown-toggle.btn-talk {
+  background-image: none;
+}
+
+/*Volunteer Button*/
+
+.btn-volunteer {
+  color: white;
+  background-color: #acb430;
+  border-color: none;
+  border-radius: 0px;
+  width:20%;
+
+}
+
+.btn-volunteer:hover,
+.btn-volunteer:focus,
+.btn-volunteer:active,
+.btn-volunteer.active,
+.open .dropdown-toggle.btn-volunteer {
+  color: white;
+  background-color: #9ca423;
+  border-color: none;
+}
+
+.btn-volunteer:active,
+.btn-volunteer.active,
+.open .dropdown-toggle.btn-volunteer {
+  background-image: none;
+}
+
+.btn-volunteer.disabled,
+.btn-volunteer[disabled],
+fieldset[disabled] .btn-volunteer,
+.btn-volunteer.disabled:hover,
+.btn-volunteer[disabled]:hover,
+fieldset[disabled] .btn-volunteer:hover,
+.btn-volunteer.disabled:focus,
+.btn-volunteer[disabled]:focus,
+fieldset[disabled] .btn-volunteer:focus,
+.btn-volunteer.disabled:active,
+.btn-volunteer[disabled]:active,
+fieldset[disabled] .btn-volunteer:active,
+.btn-volunteer.disabled.active,
+.btn-volunteer[disabled].active,
+fieldset[disabled] .btn-volunteer.active {
+  background-color: #ffffff;
+}
+
+.btn-volunteer .badge {
+  color: #ffffff;
+}	
+
+/*All Button*/
+
+.btn-all {
+  color: white;
+  background-color: #6d6e71;
+  border-color: none;
+  border-radius: 0px;
+  width:20%;
+
+}
+
+.btn-all:hover,
+.btn-all:focus,
+.btn-all:active,
+.btn-all.active,
+.open .dropdown-toggle.btn-all {
+  color:green;
+  background-color: #8f8f8f;
+  border-color: none;
+}
+
+.btn-all:active,
+.btn-all.active,
+.open .dropdown-toggle.btn-all {
+  background-image: none;
+}
+
+
+.btn-all.disabled,
+.btn-all[disabled],
+fieldset[disabled] .btn-all,
+.btn-all.disabled:hover,
+.btn-all[disabled]:hover,
+fieldset[disabled] .btn-all:hover,
+.btn-all.disabled:focus,
+.btn-all[disabled]:focus,
+fieldset[disabled] .btn-all:focus,
+.btn-all.disabled:active,
+.btn-all[disabled]:active,
+fieldset[disabled] .btn-all:active,
+.btn-all.disabled.active,
+.btn-all[disabled].active,
+fieldset[disabled] .btn-all.active {
+  background-color: #ffffff;
+}
+
+.btn-all .badge {
+  color: #ffffff;
+}	
+
+/* arrows Calendar */
+
+
+
+.buttonPrev {
+		background: url('http://cpc.convio.net/redesign/img/cpc/leftArrow.png') no-repeat;
+		width:33px;
+		height:33px;
+		margin:12% 10% 0 10%;
+		border:none;
+		float:left;
+	}
+.buttonNext {
+		background: url('http://cpc.convio.net/redesign/img/cpc/rightArrow.png') no-repeat;
+		width:33px;
+		height:33px;		
+		color: #ffffff;
+		margin:12% 10% 0 10%;
+		border:none;
+		float:right;
+		outline:none;
+	}
+
+.cal-year-box [class*="span"], .cal-month-box [class*="cal-cell"] {
+    min-height: 20px;
+}
+.cal-month-day {
+    height: 20px;
+}
+.form-group { margin-bottom: 0px;}
+.input-group { margin: 0px;}
+.filter-category-head { height: auto;}
+.filter-category-column label {margin-right: 10px; }
+
+.filter-categories-block { position: absolute; top: 20px; right: 30px; }
+
+div[data-event-class] { float: left; }
+</style>-->
+
+<!-- CMS component for events import -->
+<div style="display: none;" class="templateComponent" id="templatelist-503243953"></div>
+
+<!--div class="container"-->
+	<div class="page-header">
+		<div>
+			<div class="filterButtons">
+				<div class="btn-groupCalendar">
+				  <button type="button" class="btn btn-all" data-event-type="all">All Events</button>
+				  <button type="button" class="btn btn-tours" data-event-type="tours">Tours</button>
+				  <button type="button" class="btn btn-benefit" data-event-type="benefit-events">Benefit Events</button>
+				  <button type="button" class="btn btn-exhibit" data-event-type="exhibits">Exhibits</button>
+				  <button type="button" class="btn btn-sports" data-event-type="fitness-recreation-sporting">Sports</button>		
+				  <button type="button" class="btn btn-performance" data-event-type="performances">Performances</button>
+				  <button type="button" class="btn btn-social" data-event-type="social-community">Social</button>
+				  <button type="button" class="btn btn-talk" data-event-type="talks-workshops">Talks</button>
+				  <button type="button" class="btn btn-volunteer" data-event-type="volunteer-events">Volunteer</button>
+				</div>
+			</div>
+		</div>
+		<div class="filter-block">
+			<div class="filter-main">
+				<div class="filter-search-row">
+					<div class="filter-search">
+
+
+						<div class="input-group">
+						  <input type="search" placeholder="Search events by keyword" class="form-control">
+						  <span class="input-group-btn" >
+							<button class="btn btn-default" type="button" ><span class="glyphicon glyphicon-search"></span></button>
+						  </span>
+						</div>
+
+					</div>
+					<form action="" class="filter-date form-horizontal"  role="form">
+						<fieldset>
+							<!--legend>Test</legend-->
+							<div class="form-group">
+								<label for="dtp_input2" class="col-md-2 control-label">Go to Date:</label>
+								<div class="input-group date form_date col-md-5" data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
+									<input class="form-control" size="16" type="text" value="" readonly>
+									<span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+								</div>
+								<input type="hidden" id="dtp_input2" value="" /><br/>
+							</div>
+						</fieldset>
+					</form>
+					<div class="filter-categories-block">
+						<label for="filter-categories">Filter by Category:</label>
+						<select class="filter-categories">
+							<option value="all" selected="selected">All Categories</option>
+							<option value="history-design">History & Design</label>
+							<option value="benefit-events">Benefit Event</label>
+							<option value="dog-owners">Dog Owners</label>
+							<option value="fitness-and-recreation">Fitness & Recreation</label>
+							<option value="free-events">Free Events</label>
+							<option value="kids-families">Kids & Families</label>
+							<option value="members-only">Member Programs</label>
+							<option value="member-perks">Member Perks</label>
+							<option value="partner-events">Partner Events</label>
+							<option value="retail-and-special-offers">Retail & Special Offer</label>
+							<option value="nature-horticulture">Nature & Horticulture</label>
+							<option value="cpc-sponsored">CPC Event</label>
+						</select>
+					</div>
+				</div>
+				
+				<!--div class="filter-category-row">
+					<div class="filter-category-head" >
+						<p>Filter by: <b>Categories</b><p>
+					</div>
+					<div class="filter-category-column">
+						<input type="checkbox" data-event-category="history-design" /><label>History & Design</label>
+						<input type="checkbox" data-event-category="benefit-events" /><label>Benefit Event</label>
+						<input type="checkbox" data-event-category="dog-owners" /><label>Dog Owners</label>
+						<input type="checkbox" data-event-category="fitness-and-recreation" /><label>Fitness & Recreation</label>
+					</div>
+					<div class="filter-category-column">
+						<input type="checkbox" data-event-category="free-events" /><label>Free Events</label>
+						<input type="checkbox" data-event-category="kids-families" /><label>Kids & Families</label>
+						<input type="checkbox" data-event-category="members-only" /><label>Member Programs</label>
+						<input type="checkbox" data-event-category="member-perks" /><label>Member Perks</label>
+					</div>
+					<div class="filter-category-column">
+						<input type="checkbox" data-event-category="partner-events" /><label>Partner Events</label>
+						<input type="checkbox" data-event-category="retail-and-special-offers" /><label>Retail & Special Offer</label>
+						<input type="checkbox" data-event-category="nature-horticulture" /><label>Nature & Horticulture</label>
+						<input type="checkbox" data-event-category="cpc-sponsored" /><label>CPC Event</label>
+					</div>
+				</div-->
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2">
+				<div class="buttonPrev" data-calendar-nav="prev"></div>
+			</div>
+			<div class="col-md-8 text-center">
+					<h3></h3>
+			</div>
+			<div class="col-md-2">
+					<div class="buttonNext" data-calendar-nav="next"></div>
+			</div>
+			<!--button class="btn" data-calendar-nav="today">Today</button-->
+		</div>
+	</div>
+	<div class="span9">
+		<div id="calendar"></div>
+	</div>
+<!--/div-->
+
+	<!-- js dependencies for calendar -->
+	<script type="text/javascript" src="http://cpc.convio.net/redesign/js/underscore-min.js"></script>
+	<script type="text/javascript" src="http://cpc.convio.net/redesign/components/jstimezonedetect/jstz.min.js"></script>
+    <script type="text/javascript" src="http://cpc.convio.net/redesign/js/calendar-cpc-v10_4.js"></script>
+	<script type="text/javascript" src="http://cpc.convio.net/redesign/js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+	<!-- in-page additional scripts -->
+	<script type="text/javascript">// <![CDATA[
+		(function($) {
+			
+			"use strict";
+			var eventsList = [];
+			
+			$(document).ready(function() {
+				$('.eventJSON').each(function() {
+					var element = $(this).text();
+					var JSONelement = $.parseJSON(element);
+					var elementString = JSONelement.dateform.toString();
+					var startString = elementString.concat(' ').concat(JSONelement.starttime.toString());
+					var endString = elementString.concat(' ').concat(JSONelement.endtime.toString());
+					//var elementDate = Date.parse(elementString);
+					var myStart = Date.parse(startString);
+					var myEnd = Date.parse(endString);
+					//alert('this date '+elementString+' as date: '+elementDate+' start: '+startString+' as date:'+myStart+' end '+endString+' as date: '+myEnd);
+					JSONelement.popoverContent = '<div class="popoverHide" id="popoverID'+JSONelement.id+'"><img src="'+JSONelement.image+'" /><p><b>'+JSONelement.title+'<br />When: '+JSONelement.starttime+'<br />Where: '+JSONelement.location+'</b><br /><br />'+JSONelement.short_description+'<br /><br /><a class="btnGet" role="button" href="'+JSONelement.url+'">+INFO AND TICKETS</a></div>';
+					JSONelement.start = myStart;
+					JSONelement.end = myEnd;
+					eventsList.push(JSONelement);
+				});
+				console.log('load',eventsList);
+				
+				/*var targetday = parseInt(this.options.day.slice(8,10));
+				var firstday = this.options.position.start.getDay();
+				var day_in_month = targetday + firstday;
+				var week_in_month = parseInt(day_in_month / 7);
+				this.options.week_in_month = week_in_month;*/
+			
+
+				var options = {
+					events_source: eventsList,
+					view: 'month',
+					tmpl_path: 'tmpls/',
+					tmpl_cache: false,
+					day: 'now',
+					onAfterEventsLoad: function(events) {
+					},
+					onAfterViewLoad: function(view) {
+						$('.page-header h3').text(this.getTitle());	// <======= THIS does header
+						$('.btn-group button').removeClass('active');
+						$('button[data-calendar-view="' + view + '"]').addClass('active');
+						var focusDate = this.options.day;
+						$('[data-cal-date="'+focusDate+'"]').closest('.cal-cell1').addClass('day-highlight');
+					},
+					classes: {
+						months: {
+							general: 'label'
+						}
+					},
+					modal: '#events-modal'
+				};
+
+				var calendar = $('#calendar').calendar(options);
+
+				$('div[data-calendar-nav]').each(function() {
+					var $this = $(this);
+					$this.click(function() {
+						calendar.navigate($this.data('calendar-nav'));
+					});
+				});
+				
+				function showTypes(eventType) {
+					if(eventType == 'all') {
+						//alert('showing all: '+eventType);
+						$('div[data-event-class]').show();
+					} else {
+						$('div[data-event-class]').hide();
+						//alert('showing type: '+eventType);
+						$('div[data-event-class="event-'+eventType+'"]').show();
+					}
+				}
+				
+				$('button[data-event-type]').each(function() {
+					var $this = $(this);
+					$this.click(function() {
+						$('select.filter-categories').val('all');
+						$('div[data-event-categories]').show();
+						showTypes($this.data('event-type'));
+					});
+				});
+				
+				function showCategories() {
+					var thisCategory = $('select.filter-categories option:selected').val();
+					if(thisCategory == 'all') {
+						$('div[data-event-categories]').show();
+					} else {
+						$('div[data-event-categories]').hide();
+						$('div[data-event-categories*="'+thisCategory+'"]').show();
+					}
+				}
+				
+				$('select.filter-categories').change(function() {
+					showCategories();
+				});
+				
+				/*function showCategories(eventCategory) {
+					if(eventCategory == 'all') {
+						$('div[data-event-categories]').show();
+					} else {
+						$('div[data-event-categories]').hide();
+						$('div[data-event-categories*="'+eventCategory+'"]').show();
+					}
+				}
+				
+				$('input[data-event-category]').each(function() {
+					var $this = $(this);
+					$this.click(function() {
+						showCategories($this.data('event-category'));
+					});
+				});*/
+				
+				$('.form_date').datetimepicker({
+					//language:  'fr',
+					weekStart: 0,
+					todayBtn:  1,
+					autoclose: 1,
+					todayHighlight: 1,
+					startView: 2,
+					minView: 2,
+					forceParse: 0,
+					onRender: function(ev) {
+						alert('date: '+ev.valueOf());// < date-start-display.valueOf() ? ' disabled' : '';
+					}
+				}).on('changeDate', function(ev){
+					var myDate = ev.date;
+					var myYear = myDate.getFullYear();
+					var myMonth = myDate.getMonth() + 1;
+					var myMonthFormatted = myMonth < 10 ? '0' + myMonth : myMonth;
+					var myDay = myDate.getDate();
+					var myDayFormatted = myDay < 10 ? '0' + myDay : myDay;
+					var myDateFormatted = ''+myYear+'-'+myMonthFormatted+'-'+myDayFormatted;
+
+					//alert('date: '+myDateFormatted);
+					calendar.options.day = myDateFormatted;
+					calendar.view('month');
+				});
+
+			})
+			
+		})(jQuery);
+	// ]]></script>

@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<partyInfo>
+	<party>
+		<teamId>1130</teamId>
+		<inviteCode>1234</inviteCode>
+		<partyDetails>Central Park Conservancy&lt;br /&gt;This is a test party.</partyDetails>
+		<hostNames>Olmsted and Vaux</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>14 East 60th Street</teamName>
+	</party>
+	<party>
+		<teamId>1092</teamId>
+		<inviteCode>N234</inviteCode>
+		<partyDetails>Apartment 16B&lt;br /&gt;A Sumptuous Picnic Supper will be served</partyDetails>
+		<hostNames>Pamela and Richard Scurry</hostNames>
+		<partyTime>7:00 - 9:00 pm</partyTime>
+		<teamName>1158 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1065</teamId>
+		<inviteCode>DQN7</inviteCode>
+		<partyDetails>Rooftop Garden&lt;br /&gt;Come have cocktails and hors d&apos;oeuvres on the rooftop!</partyDetails>
+		<hostNames>Diana and Joe DiMenna</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>10 East 67th Street</teamName>
+	</party>
+	<party>
+		<teamId>1063</teamId>
+		<inviteCode>4EKW</inviteCode>
+		<partyDetails>Apartment 8A&lt;br /&gt;Cocktails and hors d&apos;oeuvres</partyDetails>
+		<hostNames>Beth &amp; Stephen Dannhauser</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>1035 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1076</teamId>
+		<inviteCode>WWY6</inviteCode>
+		<partyDetails>Apartment 7B&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Jill and Barry Lafer</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>1060 Fifth Avenue</teamName>
+</party>
+	<party>
+		<teamId>1083</teamId>
+		<inviteCode>RMHG</inviteCode>
+		<partyDetails>Apartment 12&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Elizabeth and Richard Miller</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>1125 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1073</teamId>
+		<inviteCode>U4QV</inviteCode>
+		<partyDetails>Building Lobby&lt;br /&gt;The Residents of 1150 5th Avenue are hosting a building gathering to celebrate the Fireworks Gala given by the Central Park Conservancy.  Refreshments will be served between 6:30-7:30 pm.  We plan to walk to the Reservoir and view the fireworks which are scheduled at approximately 7:45 pm.</partyDetails>
+		<hostNames>Catherine King, Building Representative to the Central Park Conservancy</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>1150 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1010</teamId>
+		<inviteCode>6VP2</inviteCode>
+		<partyDetails>Apartment 25C&lt;br /&gt;Cocktails and hors d&apos;oeuvres</partyDetails>
+		<hostNames>Patsy and Jeff Tarr</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<copyFlag>true</copyFlag>
+		<teamName>The San Remo - 145 Central Park West</teamName>
+	</party>
+	<party>
+		<teamId>1100</teamId>
+		<inviteCode>MZDT</inviteCode>
+		<partyDetails>Top of the One Club&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Walter &amp; Sandra Stingle  and  the Board of Directors of One Lincoln Plaza</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>20 West 64th Street</teamName>
+	</party>
+	<party>
+		<teamId>1079</teamId>
+		<inviteCode>AANL</inviteCode>
+		<partyDetails>Apartment 9B&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Denise Hoogland</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>21 East 90th Street</teamName>
+	</party>
+	<party>
+		<teamId>1120</teamId>
+		<inviteCode>JJXN</inviteCode>
+		<partyDetails>Apartment 15F&lt;br /&gt;Wine and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Maureen Mulheren</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>295 Central Park West</teamName>
+	</party>
+	<party>
+		<teamId>1066</teamId>
+		<inviteCode>PSWB</inviteCode>
+		<partyDetails>Apartment 8N&lt;br /&gt;White wine and light hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Renee Khatami and Rick MacArthur</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>151 Central Park West</teamName>
+	</party>
+	<party>
+		<teamId>1069</teamId>
+		<inviteCode>QDE8</inviteCode>
+		<partyDetails>Apartment 9A&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Gail Gregg</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>1 West 64th Street</teamName>
+	</party>
+	<party>
+		<teamId>1078</teamId>
+		<inviteCode>87ZQ</inviteCode>
+		<partyDetails>Building Lobby&lt;br /&gt;Children are welcome. Drinks and light hors d&apos;oeuvres will be served.</partyDetails>
+		<hostNames>Patti and Bruce Lieberman</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>101 Central Park West</teamName>
+	</party>
+	<party>
+		<teamId>1055</teamId>
+		<inviteCode>5TJQ</inviteCode>
+		<partyDetails>Building Lobby&lt;br /&gt;Jazz Trio to perform</partyDetails>
+		<hostNames>Ed Bobrow</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>1025 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1097</teamId>
+		<inviteCode>DZYG</inviteCode>
+		<partyDetails>Apartment 11A&lt;br /&gt;Cocktails and Hors d&apos;oeurvres will be served</partyDetails>
+		<hostNames>Steve Bensinger and Carol Staab</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>1049 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1101</teamId>
+		<inviteCode>D363</inviteCode>
+		<partyDetails>Apartment 12C&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Ms. Louise Stocker</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>1056 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1074</teamId>
+		<inviteCode>CWLB</inviteCode>
+		<partyDetails>Apartment 13A&lt;br /&gt;Cocktails and hors d&apos;oeuvres</partyDetails>
+		<hostNames>Jane and Charles Klein</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>1140 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1051</teamId>
+		<inviteCode>G3HQ</inviteCode>
+		<partyDetails>Apartment 9B&lt;br /&gt;Cocktails and Nibbles</partyDetails>
+		<hostNames>Suzie and Ainar Aijala</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>1136 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1085</teamId>
+		<inviteCode>QNWZ</inviteCode>
+		<partyDetails>Apartment 5E&lt;br /&gt;Cocktails and light refreshments will be served</partyDetails>
+		<hostNames>Heather Nesle</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>115 West 86th Street</teamName>
+	</party>
+	<party>
+		<teamId>1053</teamId>
+		<inviteCode>DMEG</inviteCode>
+		<partyDetails>Apartment 8D&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Rod and Susan Benedict</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>1165 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1081</teamId>
+		<inviteCode>Q9Q5</inviteCode>
+		<partyDetails>Apartment 18B&lt;br /&gt;Wine and champagne and light hors d&apos;oeuvres served in a toast to our glorious backyard...CENTRAL PARK.</partyDetails>
+		<hostNames>Your neighbors at 1170 Fifth Avenue, Karen McDonald and Lynden Miller</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>1170 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1106</teamId>
+		<inviteCode>YLN3</inviteCode>
+		<partyDetails>Apartment 6J&lt;br /&gt;In between Park and Lexington on 89th. BYOW/B</partyDetails>
+		<hostNames>Jon L. Winkler, Cloud Catering Partner</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>120 East 89th Street</teamName>
+	</party>
+	<party>
+		<teamId>1072</teamId>
+		<inviteCode>GJTX</inviteCode>
+		<partyDetails>Penthouse South C&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Valerie Jennings</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>135 Central Park West</teamName>
+	</party>
+	<party>
+		<teamId>1054</teamId>
+		<inviteCode>Q9LC</inviteCode>
+		<partyDetails>Apartment 9D&lt;br /&gt;Cocktails &amp; light hors d&apos;oeuvres.  We&apos;ll walk together to 7:45PM fireworks.</partyDetails>
+		<hostNames>Dana Blanton</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>139 West 82nd Street</teamName>
+	</party>
+	<party>
+		<teamId>1096</teamId>
+		<inviteCode>DKJF</inviteCode>
+		<partyDetails>Apartment 9C&lt;br /&gt;Cocktails and hors d&apos;ouevres will be served</partyDetails>
+		<hostNames>Gillian Sorensen</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>15 Central Park West</teamName>
+	</party>
+	<party>
+		<teamId>1094</teamId>
+		<inviteCode>B7RN</inviteCode>
+		<partyDetails>Apartment 727&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Marlyne Sexton</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>The Pierre - 2 East 61st Street</teamName>
+	</party>
+	<party>
+		<teamId>1091</teamId>
+		<inviteCode>PFHS</inviteCode>
+		<partyDetails>Apartment 12&lt;br /&gt;Cocktails and Park fireworks!</partyDetails>
+		<hostNames>Donna and Marvin Schwartz</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>2 East 88th Street</teamName>
+	</party>
+	<party>
+		<teamId>1056</teamId>
+		<inviteCode>LTP3</inviteCode>
+		<partyDetails>Apartment 16C, the home of Board Chair Ian Reisner and Mati Weiderpass&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>The Directors of 230 Central Park South and Elizabeth Brody</hostNames>
+		<partyTime>7:00 - 8:30 pm</partyTime>
+		<teamName>230 Central Park South</teamName>
+	</party>
+	<party>
+		<teamId>1059</teamId>
+		<inviteCode>7MZ9</inviteCode>
+		<partyDetails>Apartment 14D&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Tom and Donna Daniels</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>65 Central Park West</teamName>
+	</party>
+	<party>
+		<teamId>1059</teamId>
+		<inviteCode>2PJ3</inviteCode>
+		<partyDetails>The Rodriguez Home, Apartment 10B&lt;br /&gt;Cocktails and hors d&apos;oeuvres</partyDetails>
+		<hostNames>Carmen and Carlos Rodriguez, Nina Chertoff and Michael Rosenbaum</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>65 Central Park West</teamName>
+	</party>
+	<party>
+		<teamId>1110</teamId>
+		<inviteCode>5MS6</inviteCode>
+		<partyDetails>Apartment 17C&lt;br /&gt;Please join us for Libations and Tastings and a Fireworks Celebration of Central Park</partyDetails>
+		<hostNames>Coke Anne &amp; Jarvis Wilcox</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>7 West 81st Street</teamName>
+	</party>
+	<party>
+		<teamId>1102</teamId>
+		<inviteCode>BQZK</inviteCode>
+		<partyDetails>The Kreisberg&apos;s Apartment, 19B&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Louis and Amie Kreisberg, John and Diane Chachas &amp; John and Ellen Stossel</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>The Beresford - 211 Central Park West</teamName>
+	</party>
+	<party>
+		<teamId>1093</teamId>
+		<inviteCode>VZEN</inviteCode>
+		<partyDetails>Apartment 7H&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Betsey &amp; Arty Selkowitz</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>860 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1093</teamId>
+		<inviteCode>HJ7G</inviteCode>
+		<partyDetails>Apartment 16C&lt;br /&gt;Please join us for cocktails, hors d&apos;oeuvres, conversation and fireworks in celebration of another Springtime and our fabulous Park!</partyDetails>
+		<hostNames>Bob Katz &amp; Arline Mann</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>860 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1093</teamId>
+		<inviteCode>NGBV</inviteCode>
+		<partyDetails>Apartment 9A&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Debrah Charatan</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>860 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1107</teamId>
+		<inviteCode>LFLP</inviteCode>
+		<partyDetails>Apartment 19C</partyDetails>
+		<hostNames>Lynn Wright and Scott Gordon</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>870 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1082</teamId>
+		<inviteCode>FNGM</inviteCode>
+		<partyDetails>KKR, 9 West 57th, 41st Floor&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served!</partyDetails>
+		<hostNames>Henry and Laura McVey</hostNames>
+		<partyTime>7:00 - 8:30 pm</partyTime>
+		<teamName>9 West 57th Street</teamName>
+	</party>
+	<party>
+		<teamId>1071</teamId>
+		<inviteCode>7J9U</inviteCode>
+		<partyDetails>Cocktails and hors d&apos;oeuvres in 9E&lt;br /&gt;Cocktails and dessert in 4B</partyDetails>
+		<hostNames>Barbara Karp Shuster &amp; Anita and Bob Jacobson</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>91 Central Park West</teamName>
+	</party>
+	<party>
+		<teamId>1058</teamId>
+		<inviteCode>PCDV</inviteCode>
+		<partyDetails>Penthouse A&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Judy and Russ Carson</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>930 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1061</teamId>
+		<inviteCode>5YXN</inviteCode>
+		<partyDetails>8th Floor&lt;br /&gt;Cocktails and hors d&apos;oeuvres</partyDetails>
+		<hostNames>Katie and Billy Cooling</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>969 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1088</teamId>
+		<inviteCode>KCDW</inviteCode>
+		<partyDetails>Apartment 23C</partyDetails>
+		<hostNames>Ron Pobuda</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>210 Central Park South</teamName>
+	</party>
+	<party>
+		<teamId>1077</teamId>
+		<inviteCode>ZHTA</inviteCode>
+		<partyDetails>Mayfair Towers, 17 West 72nd Street, Apartment 27C&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served. Please arrive by 7:30 pm.</partyDetails>
+		<hostNames>Paul and Martha Leitner</hostNames>
+		<partyTime>6:00 - 8:30 pm</partyTime>
+		<teamName>The Mayfair Towers - 15 West 72nd Street</teamName>
+	</party>
+	<party>
+		<teamId>1062</teamId>
+		<inviteCode>WCBB</inviteCode>
+		<partyDetails>Apartment 3&lt;br /&gt;Please join  Chris &amp; Lauren Corrinet  for Festive Cocktails and Hors D&apos;Oeuvres to celebrate  Spring and Central Park. Followed by Fireworks in Central Park at Sunset. $100 Donation to Central Park Suggested.</partyDetails>
+		<hostNames>Chris &amp; Lauren Corrinet</hostNames>
+		<partyTime>6:00 - 8:00 pm</partyTime>
+		<teamName>70 East 79th Street</teamName>
+	</party>
+	<party>
+		<teamId>1078</teamId>
+		<inviteCode>JHJC</inviteCode>
+		<partyDetails>Apartment 7C</partyDetails>
+		<hostNames>Carol and Bill Lewis</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>101 Central Park West</teamName>
+	</party>
+	<party>
+		<teamId>1140</teamId>
+		<inviteCode>YLMV</inviteCode>
+		<partyDetails>Entrance on 84th Street, party in Penthouses A &amp; C&lt;br /&gt;Panoramic view of Central Park and the fireworks! Libations, conversations and donations!</partyDetails>
+		<hostNames>Liz &amp; Ken Frydman and Natalie Yates &amp; Richard Cacciato</hostNames>
+		<partyTime>6:00 - 8:00 pm</partyTime>
+		<teamName>239 Central Park West</teamName>
+	</party>
+	<party>
+		<teamId>1057</teamId>
+		<inviteCode>P3AD</inviteCode>
+		<partyDetails>Apartment 5&lt;br /&gt;Eat, Drink and Watch the Fireworks with us!!!</partyDetails>
+		<hostNames>Melanie Shorin and Greg Feldman&lt;br /&gt;Susan Calhoun and Charlie Ross</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>956 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1150</teamId>
+		<inviteCode>R2A8</inviteCode>
+		<partyDetails>745 Fifth Avenue, 28th Floor&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Central Park Conservancy and Caspian Private Equity</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>745 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1151</teamId>
+		<inviteCode>MQXT</inviteCode>
+		<partyDetails>Time Warner Center, South Tower, 51st Floor&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Jeff Blau</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>25 Columbus Circle</teamName>
+	</party>
+	<party>
+		<teamId>1080</teamId>
+		<inviteCode>9P3L</inviteCode>
+		<partyDetails>Apartment 7N&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Jay and Laurie Mandelbaum</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>1107 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1050</teamId>
+		<inviteCode>TQ8N</inviteCode>
+		<partyDetails>Apartment 36&lt;br /&gt;Come by for a drink and snacks!</partyDetails>
+		<hostNames>Jenny Adler</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>55 West 95th Street</teamName>
+	</party>
+	<party>
+		<teamId>1095</teamId>
+		<inviteCode>8ZH9</inviteCode>
+		<partyDetails>Apartment 4A&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Linda Silverman</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>40 Central Park South</teamName>
+	</party>
+	<party>
+		<teamId>1103</teamId>
+		<inviteCode>43LM</inviteCode>
+		<partyDetails>Apartment 6 South</partyDetails>
+		<hostNames>Daryl Brown Uber and Bruce A. Uber</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>112 East 74th Street</teamName>
+	</party>
+	<party>
+		<teamId>1141</teamId>
+		<inviteCode>N2AT</inviteCode>
+		<partyDetails>Apartment 10C&lt;br /&gt;Cocktails and hors d&apos;oeuvres</partyDetails>
+		<hostNames>Donna Adan</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>7 East 86th Street</teamName>
+	</party>
+	<party>
+		<teamId>1090</teamId>
+		<inviteCode>2NER</inviteCode>
+		<partyDetails>Apartment 43A&lt;br /&gt;Wine and a great view of the fireworks!</partyDetails>
+		<hostNames>Bob Schiff</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>124 West 60th Street</teamName>
+	</party>
+	<party>
+		<teamId>1099</teamId>
+		<inviteCode>MQ2T</inviteCode>
+		<partyDetails>Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Sheila and George Stephenson</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>1120 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1098</teamId>
+		<inviteCode>SHRV</inviteCode>
+		<partyDetails>Apartment 7D&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Nancy and Burt Staniar</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>907 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1160</teamId>
+		<inviteCode>4AJP</inviteCode>
+		<partyDetails>Apartment 12B&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Christine and George Stonbely</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>1115 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1105</teamId>
+		<inviteCode>D874</inviteCode>
+		<partyDetails>Apartment 2B&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Holly Wallace and Ed Baum</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>40 West 77th Street</teamName>
+	</party>
+	<party>
+		<teamId>1170</teamId>
+		<inviteCode>X2CF</inviteCode>
+		<partyDetails>25th Floor Reception&lt;br /&gt;Cocktails at 7:30 pm</partyDetails>
+		<hostNames>Weil, Gotshal &amp; Manges</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>Weil, Gotshal &amp; Manges - 767 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1068</teamId>
+		<inviteCode>WJRF</inviteCode>
+		<partyDetails>Apartment 2D&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Virginia Glover</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>4 East 88th Street</teamName>
+	</party>
+	<party>
+		<teamId>1087</teamId>
+		<inviteCode>2WMJ</inviteCode>
+		<partyDetails>Apartment 10E&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served. Residents attending the cocktail party will be able to sign up for a tour of &quot;The History and Highlights of Central Park&quot;</partyDetails>
+		<hostNames>Charles H. Mutterperl</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>The Majestic - 115 Central Park West</teamName>
+	</party>
+	<party>
+		<teamId>1075</teamId>
+		<inviteCode>E2K5</inviteCode>
+		<partyDetails>20th Floor Solarium&lt;br /&gt;Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>240 Central Park South Management</hostNames>
+		<partyTime>6:30 - 8:00 pm</partyTime>
+		<teamName>240 Central Park South</teamName>
+	</party>
+	<party>
+		<teamId>1180</teamId>
+		<inviteCode>V5QT</inviteCode>
+		<partyDetails>Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>One Museum Mile</hostNames>
+		<partyTime>6:30 - 8:30 pm</partyTime>
+		<teamName>One Museum Mile - 1280 Fifth Avenue</teamName>
+	</party>
+	<party>
+		<teamId>1190</teamId>
+		<inviteCode>6W4C</inviteCode>
+		<partyDetails>Cocktails and hors d&apos;oeuvres will be served</partyDetails>
+		<hostNames>Michele and Martin Cohen</hostNames>
+		<partyTime>6:30 - 8:30 pm</partyTime>
+		<teamName>The Museum of Arts and Design - 2 Columbus Circle</teamName>
+	</party>
+</partyInfo>
